@@ -36,8 +36,8 @@ class DiscoveryTests(unittest.TestCase):
         for path in (cached, other):
             self.assertEqual(by_path[str(path.resolve())]['paths'][0]['source_kind'], 'plugin_cache')
         self.assertTrue(all(s['host_activity']['state'] == 'unknown' for s in result['skills']))
-        self.assertEqual(by_path[str(cached)]['name'], 'Example')
-        self.assertEqual(by_path[str(cached)]['entry_sha256'], hashlib.sha256(cached.read_bytes()).hexdigest())
+        self.assertEqual(by_path[str(cached.resolve())]['name'], 'Example')
+        self.assertEqual(by_path[str(cached.resolve())]['entry_sha256'], hashlib.sha256(cached.read_bytes()).hexdigest())
 
     def test_symlink_alias_and_cycle(self):
         path = self.skill('real/skill')
