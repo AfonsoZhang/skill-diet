@@ -62,6 +62,7 @@ Listing a nonexistent inventory returns an empty list without creating it.
 | `draft PATH --out NEW_PATH` | Copy the source unchanged into a new review package with an audit and review plan |
 
 Inventory commands output JSON. Audit defaults to Markdown and supports `--format json`.
+The unified CLI writes UTF-8, including when output is redirected to a file or pipe.
 Use distinct IDs for distinct skills. Scan lists directory symlinks with their resolved
 locations; the static auditor resolves the input root and rejects symlinks inside it.
 A missing registered directory remains in the inventory so you can see and update its location.

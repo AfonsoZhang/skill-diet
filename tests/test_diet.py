@@ -26,7 +26,7 @@ class Tests(unittest.TestCase):
         for rel,raw in before.items():
             self.assertEqual((self.root/rel).read_bytes(),raw)
             self.assertEqual((out/'original'/rel).read_bytes(),raw)
-        self.assertFalse(json.loads((out/'plan.json').read_text())['automatic_switching'])
+        self.assertFalse(json.loads((out/'plan.json').read_text(encoding='utf-8'))['automatic_switching'])
     def test_no_overwrite(self):
         with self.assertRaises(ValueError): diet.draft(self.root,self.root)
         with self.assertRaises(ValueError): diet.draft(self.root,self.root/'child')

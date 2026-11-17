@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -84,6 +85,20 @@ class ManagerTests(unittest.TestCase):
         payload.write_text('{"source":"test","windows":[{"start":null}],"events":[]}', encoding='utf-8')
         self.run_cli('import', payload, code=2)
         self.assertEqual(self.run_cli('list')[0]['status'], 'unknown')
+
+    def test_redirected_output_uses_utf8(self):
+        (self.skill / 'SKILL.md').write_text('# 技能\n必须读取全部内容\n', encoding='utf-8')
+        env = dict(os.environ, PYTHONIOENCODING='ascii')
+        for output_format in ('json', 'markdown'):
+            proc = subprocess.run(
+                [sys.executable, str(CLI), 'audit', str(self.skill), '--format', output_format],
+                capture_output=True, env=env)
+            self.assertEqual(proc.returncode, 0, proc.stderr.decode('utf-8'))
+            output = proc.stdout.decode('utf-8')
+            if output_format == 'json':
+                self.assertEqual(json.loads(output)['summary']['files'], 1)
+            else:
+                self.assertIn('静态体检', output)
 
 
 if __name__ == '__main__':

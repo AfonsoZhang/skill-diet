@@ -68,6 +68,11 @@ def parser():
 
 
 def main(argv=None):
+    # Reports contain Unicode source excerpts. Keep redirected output portable
+    # on Windows and other hosts whose default pipe encoding is not UTF-8.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(encoding='utf-8')
     args = parser().parse_args(argv)
     try:
         if args.command == 'scan':

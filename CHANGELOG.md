@@ -9,6 +9,7 @@
 - Preserve the standalone audit and usage script interfaces.
 - Fix complete observation windows being misclassified at an exact lookback boundary.
 - Return a validation error for non-string event timestamps.
+- Write unified CLI output as UTF-8 even when the host's pipe encoding is ASCII.
 - Add CLI integration tests and a Windows/macOS/Linux CI configuration.
 
 ## 0.2 — supplied prototype
