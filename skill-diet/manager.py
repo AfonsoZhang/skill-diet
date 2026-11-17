@@ -5,13 +5,16 @@ from datetime import datetime, timezone
 import json
 from pathlib import Path
 import sqlite3
+import shutil
 import sys
 
 if __package__:
-    from . import diet, usage
+    from . import diet, usage, discovery, evidence
 else:
     import diet
     import usage
+    import discovery
+    import evidence
 
 
 def scan(path):
@@ -40,12 +43,23 @@ def scan(path):
 
 def parser():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--version', action='version', version='%(prog)s 0.3.0')
+    p.add_argument('--version', action='version', version='%(prog)s 0.4.0')
     p.add_argument('--db', default=str(Path.home() / '.skill-diet' / 'inventory.sqlite'),
                    help='Local inventory database (default: ~/.skill-diet/inventory.sqlite)')
     commands = p.add_subparsers(dest='command', required=True)
     s = commands.add_parser('scan', help='List skills in an explicitly chosen directory; no registration')
     s.add_argument('path')
+    for command in ('discover', 'inspect'):
+        q = commands.add_parser(command, help='Discover nested skills and aliases' if command == 'discover'
+                                else 'Review skills with categorized, source-located findings')
+        q.add_argument('paths', nargs='+', help='Explicit skill, collection, or plugin roots')
+        q.add_argument('--cache-root', action='append', default=[], help='Label paths under this root as cache; repeatable')
+        q.add_argument('--max-directories', type=int, default=20000)
+        q.add_argument('--max-skills', type=int, default=10000)
+        if command == 'inspect':
+            q.add_argument('--format', choices=('json', 'markdown'), default='json')
+            q.add_argument('--check-host', action='store_true', help='Check common executable names on the current PATH')
+            q.add_argument('--host-context', help='Operator-reported command/tool/model availability JSON; does not prove activation')
     a = commands.add_parser('add', help='Register or update an ID and its location')
     a.add_argument('id')
     a.add_argument('path')
@@ -75,7 +89,33 @@ def main(argv=None):
             stream.reconfigure(encoding='utf-8')
     args = parser().parse_args(argv)
     try:
-        if args.command == 'scan':
+        if args.command in ('discover', 'inspect'):
+            result = discovery.discover(args.paths, cache_roots=args.cache_root,
+                                        max_directories=args.max_directories, max_skills=args.max_skills)
+            if args.command == 'inspect':
+                context = None
+                if args.host_context:
+                    context = json.loads(Path(args.host_context).expanduser().read_text(encoding='utf-8'))
+                    if not isinstance(context, dict):
+                        raise ValueError('Host context must be a JSON object')
+                    commands = context.get('commands', {})
+                    if not isinstance(commands, dict) or any(not isinstance(k, str) or not isinstance(v, bool) for k, v in commands.items()):
+                        raise ValueError('Host context commands must map names to observed booleans')
+                    for field in ('tool_names', 'model_names'):
+                        if field in context and (not isinstance(context[field], list) or any(not isinstance(v, str) for v in context[field])):
+                            raise ValueError(field + ' must be a list of names')
+                    context['source'] = 'operator_reported_file'
+                if args.check_host:
+                    context = dict(context or {})
+                    context['commands'] = dict(context.get('commands', {}))
+                    context['commands'].update({name: shutil.which(name) is not None for name in
+                                               ('python', 'python3', 'node', 'soffice', 'pdftoppm', 'markitdown', 'codex', 'claude')})
+                    context['command_observation'] = 'current_process_PATH'
+                result = evidence.analyze(result, host_context=context)
+                if args.format == 'markdown':
+                    print(evidence.render_markdown(result), end='')
+                    return 0
+        elif args.command == 'scan':
             result = scan(args.path)
         elif args.command == 'audit':
             result = diet.audit(Path(args.path).expanduser())

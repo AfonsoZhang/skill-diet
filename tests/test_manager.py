@@ -37,6 +37,33 @@ class ManagerTests(unittest.TestCase):
         self.assertEqual(len(self.run_cli('scan', self.skill)), 1)
         self.assertFalse(self.db.parent.exists())
 
+    def test_recursive_discovery_keeps_activity_unknown(self):
+        nested = self.skills / 'plugins' / 'cache' / 'package' / '1.0' / 'skills' / 'nested'
+        nested.mkdir(parents=True)
+        (nested / 'SKILL.md').write_text('---\nname: nested\n---\n# Test\n', encoding='utf-8')
+        report = self.run_cli('discover', self.skills)
+        self.assertEqual(report['summary']['skills'], 2)
+        item = next(s for s in report['skills'] if s['name'] == 'nested')
+        self.assertEqual(item['host_activity']['state'], 'unknown')
+        self.assertEqual(item['paths'][0]['source_kind'], 'plugin_cache')
+        self.assertFalse(self.db.parent.exists())
+
+    def test_inspection_reports_source_evidence_without_database(self):
+        (self.skill / 'SKILL.md').write_text('# Test\nRead [the rules](references/rules.md).\n', encoding='utf-8')
+        report = self.run_cli('inspect', self.skills)
+        finding = next(f for f in report['findings'] if f['rule'] == 'missing-local-resource')
+        self.assertEqual(finding['category'], 'defect')
+        self.assertEqual(finding['line'], 2)
+        self.assertIn('references/rules.md', finding['evidence'])
+        self.assertEqual(report['summary']['usage_status'], 'unknown')
+        self.assertFalse(self.db.parent.exists())
+
+    def test_invalid_host_context_is_rejected(self):
+        context = self.base / 'host.json'
+        context.write_text('{"commands": {"python": "missing"}}', encoding='utf-8')
+        self.run_cli('inspect', self.skills, '--host-context', context, code=2)
+        self.assertFalse(self.db.parent.exists())
+
     def test_fresh_list_and_invalid_arguments_do_not_create_database(self):
         self.assertEqual(self.run_cli('list'), [])
         self.run_cli('list', '--days', 0, code=2)
