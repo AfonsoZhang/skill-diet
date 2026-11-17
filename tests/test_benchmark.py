@@ -29,6 +29,12 @@ class BenchmarkTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             b.action(self.root, 'plain', 'inspect')
 
+    def test_recorded_fixture_hash_is_portable(self):
+        if not (self.root/'library/user/alias').is_symlink() or not (self.root/'library/project/team/cycle').is_symlink():
+            self.skipTest('Recorded fixture includes symlinks unavailable on this host')
+        recorded = Path(__file__).parents[1]/'benchmarks/results/seed-17/manifest.json'
+        self.assertEqual(json.loads(recorded.read_text())['input_hash'], b.digest(self.root/'library'))
+
     def test_tamper_and_budget_rejected(self):
         p = next((self.root/'library').rglob('SKILL.md'))
         p.write_text('changed')

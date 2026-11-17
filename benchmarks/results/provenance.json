@@ -19,5 +19,10 @@
   },
   "tokens": null,
   "monetary_cost": null,
-  "adjudication": "Independent gpt-6.1-sol reviewer received randomly relabeled source/truth/submission packets, without condition labels or metrics. Applied after frozen strict scores; did not change ground truth or deterministic scoring."
+  "adjudication": "Independent gpt-6.1-sol reviewer received randomly relabeled source/truth/submission packets, without condition labels or metrics. Applied after frozen strict scores; did not change ground truth or deterministic scoring.",
+  "run_source_commit": "f39bfb9838d0d5e024f2bb223045091d9c0aa985",
+  "post_run_portability_fix": {
+    "description": "Canonical POSIX relative paths, LF fixture bytes and stable path sorting added for Windows/macOS replay; original Linux input hashes and frozen scores unchanged. No model runs repeated or scores adjusted.",
+    "harness_sha256": "1075e53a9ae5919814c761b8ca66562497d33fd9b3cf03a4a0f7ae855d0a20d0"
+  }
 }

@@ -17,16 +17,16 @@ RULES = ('missing-resource', 'credential-output', 'backend-mismatch', 'stale-cac
 
 def write(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2) + '\n')
+    path.write_text(json.dumps(value, indent=2) + '\n', encoding='utf-8', newline='\n')
 
 
 def digest(root):
     h = hashlib.sha256()
-    for p in sorted(root.rglob('*')):
+    for p in sorted(root.rglob('*'), key=lambda p: p.relative_to(root).as_posix()):
         if p.is_symlink():
-            h.update(str(p.relative_to(root)).encode() + b'LINK' + os.readlink(p).encode())
+            h.update(p.relative_to(root).as_posix().encode() + b'LINK' + os.readlink(p).encode())
         elif p.is_file():
-            h.update(str(p.relative_to(root)).encode() + b'\0' + p.read_bytes())
+            h.update(p.relative_to(root).as_posix().encode() + b'\0' + p.read_bytes())
     return h.hexdigest()
 
 
@@ -51,24 +51,24 @@ def prepare(root, seed=17):
         body = f'---\nname: {names[i]}\ndescription: Assist with a focused document workflow.\n---\n# Workflow\n\n{instruction}\n'
         p = root / 'library' / rel
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(body)
+        p.write_text(body, encoding='utf-8', newline='\n')
         if rule:
-            truth.append({'rule': rule, 'path': str(rel), 'lines': [7, 7]})
+            truth.append({'rule': rule, 'path': rel.as_posix(), 'lines': [7, 7]})
         if i == 1:
             helper = p.parent / 'scripts/diagnose.py'
             helper.parent.mkdir()
-            helper.write_text('# Synthetic fixture; no real service or credential.\nsession_cookie = \"synthetic-session\"\nprint(session_cookie)\n')
-            truth[-1]['path'] = str(helper.relative_to(root / 'library'))
+            helper.write_text('# Synthetic fixture; no real service or credential.\nsession_cookie = \"synthetic-session\"\nprint(session_cookie)\n', encoding='utf-8', newline='\n')
+            truth[-1]['path'] = helper.relative_to(root / 'library').as_posix()
             truth[-1]['lines'] = [3, 3]
         if i == 3:
             (p.parent / 'cache').mkdir()
-            (p.parent / 'cache/index.json').write_text('{"source_revision": 1, "current_revision": 2, "items": []}\n')
+            (p.parent / 'cache/index.json').write_text('{"source_revision": 1, "current_revision": 2, "items": []}\n', encoding='utf-8', newline='\n')
         if i == 4:
             (p.parent / 'references').mkdir()
-            (p.parent / 'references/terms.md').write_text('A term is a glossary entry.\n')
+            (p.parent / 'references/terms.md').write_text('A term is a glossary entry.\n', encoding='utf-8', newline='\n')
         if i == 5:
             (p.parent / 'scripts').mkdir()
-            (p.parent / 'scripts/clean.py').write_text('# Synthetic inert placeholder.\n')
+            (p.parent / 'scripts/clean.py').write_text('# Synthetic inert placeholder.\n', encoding='utf-8', newline='\n')
     # Either conflicting routing instruction is an acceptable location.
     truth[6]['alternate_paths'] = [truth[0]['path']]
     try:
@@ -80,7 +80,7 @@ def prepare(root, seed=17):
                 'input_hash': digest(root / 'library'), 'rules': RULES}
     write(root / 'manifest.json', manifest)
     write(root / 'private/truth.json', truth)
-    (root / 'prompt.txt').write_text(PROMPT)
+    (root / 'prompt.txt').write_text(PROMPT, encoding='utf-8', newline='\n')
     return manifest
 
 
@@ -117,7 +117,7 @@ def findings(value, library):
             raise ValueError('invalid finding schema')
         if f['rule'] not in RULES or f['category'] not in ('defect', 'benign', 'uncertain') or type(f['line']) is not int or f['line'] < 1 or not isinstance(f['explanation'], str):
             raise ValueError('invalid finding values')
-        if not isinstance(f['path'], str) or Path(f['path']).is_absolute() or str(Path(f['path'])) != f['path']:
+        if not isinstance(f['path'], str) or Path(f['path']).is_absolute() or Path(f['path']).as_posix() != f['path']:
             raise ValueError('path must be relative and normalized')
         if not safe(library, f['path']).is_file():
             raise ValueError('finding path must be an existing library file')
@@ -141,7 +141,7 @@ def action(root, condition, operation, path=None, submission=None):
         raise ValueError('run completed or budget exhausted')
     lib = root / 'library'
     if operation == 'list':
-        result = '\n'.join(str(p.relative_to(lib)) for p in sorted(lib.rglob('*')) if p.is_file() or p.is_symlink())
+        result = '\n'.join(p.relative_to(lib).as_posix() for p in sorted(lib.rglob('*'), key=lambda p: p.relative_to(lib).as_posix()) if p.is_file() or p.is_symlink())
     elif operation == 'read':
         if not path:
             raise ValueError('read requires --path')
@@ -238,7 +238,7 @@ def score(root):
         for f in fs:
             if f['category'] != 'defect':
                 continue
-            canonical = str(safe(root / 'library', f['path']).relative_to((root / 'library').resolve()))
+            canonical = safe(root / 'library', f['path']).relative_to((root / 'library').resolve()).as_posix()
             key = (f['rule'], canonical, f['line'])
             if key in seen:
                 continue

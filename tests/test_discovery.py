@@ -34,7 +34,7 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(len(result['skills']), 3)
         by_path = {s['canonical_path']: s for s in result['skills']}
         for path in (cached, other):
-            self.assertEqual(by_path[str(path)]['paths'][0]['source_kind'], 'plugin_cache')
+            self.assertEqual(by_path[str(path.resolve())]['paths'][0]['source_kind'], 'plugin_cache')
         self.assertTrue(all(s['host_activity']['state'] == 'unknown' for s in result['skills']))
         self.assertEqual(by_path[str(cached)]['name'], 'Example')
         self.assertEqual(by_path[str(cached)]['entry_sha256'], hashlib.sha256(cached.read_bytes()).hexdigest())
