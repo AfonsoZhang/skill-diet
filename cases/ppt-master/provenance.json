@@ -1,0 +1,1624 @@
+{
+  "repository": "https://github.com/hugohe3/ppt-master",
+  "commit": "3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf",
+  "scope": "Markdown-only snapshot plus license. Scripts/assets omitted; never executed. Not a runnable PPT Master distribution.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream_path": "skills/ppt-master/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/LICENSE",
+      "bytes": 1069,
+      "sha256": "80cefc234c1ec12a8cece4344f16300c634fa03df7891686fcf979e3828f0921"
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/ppt-master/SKILL.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/SKILL.md",
+      "bytes": 10323,
+      "sha256": "cda3f1f476a93a48385867dbdb89f661f27c35bfb670f51c7dbd53a3b300c856"
+    },
+    {
+      "path": "SPONSORS.md",
+      "upstream_path": "skills/ppt-master/SPONSORS.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/SPONSORS.md",
+      "bytes": 5277,
+      "sha256": "04f5351383b62730a3a8c0641df430b381caff0e727bab756cd58d21f9a1d950"
+    },
+    {
+      "path": "SPONSORS_CN.md",
+      "upstream_path": "skills/ppt-master/SPONSORS_CN.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/SPONSORS_CN.md",
+      "bytes": 4926,
+      "sha256": "8ea1d3f34b39fcd450e367f70a2a6ad6fd7e7edb450400d2ab598337409590c0"
+    },
+    {
+      "path": "references/ai-image-comparison/README.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/README.md",
+      "bytes": 4558,
+      "sha256": "bc21b0eeeae11c57a61e6992a28016253eb38b5b1a7d3bb42fd45917e74e3de6"
+    },
+    {
+      "path": "references/ai-image-comparison/palette/_manifest.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/palette/_manifest.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/palette/_manifest.md",
+      "bytes": 16161,
+      "sha256": "80a0702c9d7c13cb46751f3107ae14126ee41f19a4781a4260e7feba57abb6d2"
+    },
+    {
+      "path": "references/ai-image-comparison/palette/_subject.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/palette/_subject.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/palette/_subject.md",
+      "bytes": 3086,
+      "sha256": "eb07497cb22fed4bba9aededda6c517bdacf0040bd83840218e0bf28d8adbb26"
+    },
+    {
+      "path": "references/ai-image-comparison/rendering/_manifest.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/rendering/_manifest.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/rendering/_manifest.md",
+      "bytes": 23824,
+      "sha256": "3f5ce8e6dcb0d442725529a3a1a7e62ef9b82ded09066b2bb14c5489089ced2a"
+    },
+    {
+      "path": "references/ai-image-comparison/rendering/_subject.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/rendering/_subject.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/rendering/_subject.md",
+      "bytes": 1806,
+      "sha256": "eff91e57e1b624baa8abb4f127719d08806e09ce91952936b134792fe9942797"
+    },
+    {
+      "path": "references/ai-image-comparison/type/_manifest.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/type/_manifest.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/type/_manifest.md",
+      "bytes": 15082,
+      "sha256": "60fe9d0960fa9a89c17cbc5e40a54f3b23143e07c70c2452e8e2fc3aee781c09"
+    },
+    {
+      "path": "references/ai-image-comparison/type/_subject.md",
+      "upstream_path": "skills/ppt-master/references/ai-image-comparison/type/_subject.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/ai-image-comparison/type/_subject.md",
+      "bytes": 3117,
+      "sha256": "98d626e6b020f22a9c5d122a0a86a0fd90d63a1dac0807852926f46867442142"
+    },
+    {
+      "path": "references/animations.md",
+      "upstream_path": "skills/ppt-master/references/animations.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/animations.md",
+      "bytes": 24429,
+      "sha256": "7e89b3f3f4f3dac2261422de9802298d0a96acbfe0735b3d4b3cdd675e727013"
+    },
+    {
+      "path": "references/artifact-ownership.md",
+      "upstream_path": "skills/ppt-master/references/artifact-ownership.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/artifact-ownership.md",
+      "bytes": 20394,
+      "sha256": "688086d576d43eb48e871c3cf17fadd6e666cfc6056cf76bae0a8015118f6cfd"
+    },
+    {
+      "path": "references/canvas-formats.md",
+      "upstream_path": "skills/ppt-master/references/canvas-formats.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/canvas-formats.md",
+      "bytes": 4255,
+      "sha256": "8bfde00935ea6747ba7904ecaea8401f828e6f76eb7576e2419d82b940ed32a1"
+    },
+    {
+      "path": "references/confirm-surface.md",
+      "upstream_path": "skills/ppt-master/references/confirm-surface.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/confirm-surface.md",
+      "bytes": 10222,
+      "sha256": "2a78890443738b90210dc7cbed03ff90d96a24c4e2a0e359c96b95b5744d12ae"
+    },
+    {
+      "path": "references/executor-base.md",
+      "upstream_path": "skills/ppt-master/references/executor-base.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-base.md",
+      "bytes": 52622,
+      "sha256": "8a5d27948db62fa0c4830d2f52aa7555558f3c570c363cd9910b9743ac6bc843"
+    },
+    {
+      "path": "references/executor-chart.md",
+      "upstream_path": "skills/ppt-master/references/executor-chart.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-chart.md",
+      "bytes": 8360,
+      "sha256": "060bbbd7d3d05f04b9cc77be4c3d79b93a9152ccd67a0f5bb6c1790c253d8214"
+    },
+    {
+      "path": "references/executor-image.md",
+      "upstream_path": "skills/ppt-master/references/executor-image.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-image.md",
+      "bytes": 7249,
+      "sha256": "cbaf98d2e92a23e1d81bed3871c249f897fbe1d6b2c7cc688a27eb003f8200b3"
+    },
+    {
+      "path": "references/executor-notes.md",
+      "upstream_path": "skills/ppt-master/references/executor-notes.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-notes.md",
+      "bytes": 4753,
+      "sha256": "142d0429d88045002b3b34a993c83cb4aa679c9cb971adddadb7bda3a951bdad"
+    },
+    {
+      "path": "references/executor-structure.md",
+      "upstream_path": "skills/ppt-master/references/executor-structure.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-structure.md",
+      "bytes": 8148,
+      "sha256": "16b749f5ebbc352186c2343eb476c1e459b9a97037759356f6532b066e8a89c6"
+    },
+    {
+      "path": "references/executor-structured.md",
+      "upstream_path": "skills/ppt-master/references/executor-structured.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-structured.md",
+      "bytes": 12937,
+      "sha256": "c227facf21f6eff632c11057f15970439959a273af168bb264dc45e766cd11b8"
+    },
+    {
+      "path": "references/executor-table.md",
+      "upstream_path": "skills/ppt-master/references/executor-table.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-table.md",
+      "bytes": 4786,
+      "sha256": "0736ef0402cbe977db439c8c8a5aa41b20257bde38e381299e688873be897508"
+    },
+    {
+      "path": "references/executor-visualization.md",
+      "upstream_path": "skills/ppt-master/references/executor-visualization.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-visualization.md",
+      "bytes": 4517,
+      "sha256": "3fc8f2b6e066a6b88b23bbfdc89802dded83126e3523e2f1bd54388ffdb30451"
+    },
+    {
+      "path": "references/executor-web-image.md",
+      "upstream_path": "skills/ppt-master/references/executor-web-image.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/executor-web-image.md",
+      "bytes": 1806,
+      "sha256": "55d8af3bce14499502ab7c2188efbb57078bdd540a4a658419c757abe562e8fb"
+    },
+    {
+      "path": "references/image-base.md",
+      "upstream_path": "skills/ppt-master/references/image-base.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-base.md",
+      "bytes": 8966,
+      "sha256": "1906b9414962b7db773e06d23664f15c5f48e7c916ea59be7903ab08fc8b3c1e"
+    },
+    {
+      "path": "references/image-generator.md",
+      "upstream_path": "skills/ppt-master/references/image-generator.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-generator.md",
+      "bytes": 46186,
+      "sha256": "03e7c0a1b2824bc4371fa57bf5efd1c5582666db0927214368301d93f2634942"
+    },
+    {
+      "path": "references/image-layout-patterns.md",
+      "upstream_path": "skills/ppt-master/references/image-layout-patterns.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-layout-patterns.md",
+      "bytes": 26818,
+      "sha256": "e702b2a83fc2d9dac317b8d6e932ca60b442413011d52f1810c619dfff14e0cd"
+    },
+    {
+      "path": "references/image-layout-spec.md",
+      "upstream_path": "skills/ppt-master/references/image-layout-spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-layout-spec.md",
+      "bytes": 9416,
+      "sha256": "028379a05009f6c7c6dcda3432abf7927609ea513438e3714bf717e1adfb7f8d"
+    },
+    {
+      "path": "references/image-palettes/_index.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/_index.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/_index.md",
+      "bytes": 2368,
+      "sha256": "c7d93f9be1be0d305841820148609e1f58427cd8fea2c959f41de4d65d746861"
+    },
+    {
+      "path": "references/image-palettes/cool-corporate.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/cool-corporate.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/cool-corporate.md",
+      "bytes": 1697,
+      "sha256": "48d291b9d44d6e5724a957485338b75ea6e2f9eb7d8ea6a9fe682af74507edf0"
+    },
+    {
+      "path": "references/image-palettes/dark-cinematic.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/dark-cinematic.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/dark-cinematic.md",
+      "bytes": 2013,
+      "sha256": "1bcf9ec69127bef8bc73811c1c8355d6b4a548d4908c25664ac6373ac909b2d2"
+    },
+    {
+      "path": "references/image-palettes/duotone.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/duotone.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/duotone.md",
+      "bytes": 1495,
+      "sha256": "c31aee3f1559ba36bf2f8c4260e2c2d76721f9bae5af6ed66aec35e5d2b3db4e"
+    },
+    {
+      "path": "references/image-palettes/earthy-dusty.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/earthy-dusty.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/earthy-dusty.md",
+      "bytes": 1897,
+      "sha256": "b9f46878d26df015720cb32f3141c5422c848ffcad32957728b3b6b73b2fc99c"
+    },
+    {
+      "path": "references/image-palettes/editorial-classic.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/editorial-classic.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/editorial-classic.md",
+      "bytes": 1470,
+      "sha256": "6954695643aae4b7d027de7e370111b81fdaa87273fb2dcfd035d53edd0ac2b6"
+    },
+    {
+      "path": "references/image-palettes/frost-ice.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/frost-ice.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/frost-ice.md",
+      "bytes": 1673,
+      "sha256": "f001039b6e7a9663fe510c918ba44bee724051a21e171e1c4a7320ef99ca033a"
+    },
+    {
+      "path": "references/image-palettes/jewel-tone.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/jewel-tone.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/jewel-tone.md",
+      "bytes": 1793,
+      "sha256": "509fe033f21665d333e899809dcf362c82b430e89e9a732c58d671d39d9fbf90"
+    },
+    {
+      "path": "references/image-palettes/macaron.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/macaron.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/macaron.md",
+      "bytes": 1676,
+      "sha256": "906c299ae2d5f7c2df074370d01a541ee50115329da3cd18b227699d2ca32464"
+    },
+    {
+      "path": "references/image-palettes/mono-ink.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/mono-ink.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/mono-ink.md",
+      "bytes": 2584,
+      "sha256": "6c9c50fc86996118c476b27ca2baae225d5f43764054e0303048876ca02266a1"
+    },
+    {
+      "path": "references/image-palettes/nature-organic.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/nature-organic.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/nature-organic.md",
+      "bytes": 1335,
+      "sha256": "5f06fa2ec47f484898782185b5b66f239d2c764880c3a32e894ab12178d219ff"
+    },
+    {
+      "path": "references/image-palettes/sunset-gradient.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/sunset-gradient.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/sunset-gradient.md",
+      "bytes": 2193,
+      "sha256": "dbba66a988abf6ac81b7a2cbc9eb5b6d5cf9e5dff76cea70cc60bbd02cf70bf7"
+    },
+    {
+      "path": "references/image-palettes/tech-neon.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/tech-neon.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/tech-neon.md",
+      "bytes": 1550,
+      "sha256": "6dafca7a188f099224e39bc649256b815563e2410629f71a98c492ffb4e611c2"
+    },
+    {
+      "path": "references/image-palettes/vivid-launch.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/vivid-launch.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/vivid-launch.md",
+      "bytes": 1478,
+      "sha256": "5b40b6fd6eff9cb8075ea8c84fd2e8f8aa3fcf95e226df5acc1d0e8c250d8e09"
+    },
+    {
+      "path": "references/image-palettes/warm-earth.md",
+      "upstream_path": "skills/ppt-master/references/image-palettes/warm-earth.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-palettes/warm-earth.md",
+      "bytes": 1686,
+      "sha256": "e214da6bffedf4bed88e2c433540969b99f85f5b1817b0e98ba2e785b6c42171"
+    },
+    {
+      "path": "references/image-renderings/3d-isometric.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/3d-isometric.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/3d-isometric.md",
+      "bytes": 2738,
+      "sha256": "ab1f0158fb0ff02443bd4489f772f4e70353b971c2cf075e46fc5c702c304cd4"
+    },
+    {
+      "path": "references/image-renderings/_index.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/_index.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/_index.md",
+      "bytes": 8249,
+      "sha256": "fc7e921728767e80dbd0c52379321e1e26523b65a654304db819451c457b3829"
+    },
+    {
+      "path": "references/image-renderings/blueprint.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/blueprint.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/blueprint.md",
+      "bytes": 2667,
+      "sha256": "5079c0de315e44a00dafaf4b88a99215c6fd2d524fbbb9c65f3b6b90f7ce0a71"
+    },
+    {
+      "path": "references/image-renderings/chalkboard.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/chalkboard.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/chalkboard.md",
+      "bytes": 2600,
+      "sha256": "cdfcd2aa75628ee2027b4e47b94dc6d3a16b45258168f1b18ebb67f79a9c65d2"
+    },
+    {
+      "path": "references/image-renderings/corporate-photo.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/corporate-photo.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/corporate-photo.md",
+      "bytes": 3485,
+      "sha256": "855d553ee0d0b694d36a85d24be13d4f5148026cf5eebdf515fbe59e45504b5b"
+    },
+    {
+      "path": "references/image-renderings/digital-dashboard.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/digital-dashboard.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/digital-dashboard.md",
+      "bytes": 2652,
+      "sha256": "a02478f3afed9fbc48158d295834aff2821d2b10bbb4f1e26b5263634c154368"
+    },
+    {
+      "path": "references/image-renderings/editorial.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/editorial.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/editorial.md",
+      "bytes": 2606,
+      "sha256": "683beeddf6a199ea87a7fba7245b66705148675cdb7e90417e4fabe491c60011"
+    },
+    {
+      "path": "references/image-renderings/fantasy-animation.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/fantasy-animation.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/fantasy-animation.md",
+      "bytes": 2754,
+      "sha256": "13f070188434cd63b737271b4b6e8f31db12307b2283d4b7bfa8e11a00131835"
+    },
+    {
+      "path": "references/image-renderings/flat.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/flat.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/flat.md",
+      "bytes": 2379,
+      "sha256": "09c7c6d066fa7886a7cd628dd6b862a1b631cfc53719269e178efc8ddbba1258"
+    },
+    {
+      "path": "references/image-renderings/glassmorphism.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/glassmorphism.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/glassmorphism.md",
+      "bytes": 3181,
+      "sha256": "a321e171e1cf0f86d3575a6d7a9f2dd8ada46a59582af290190019d83cb44bc6"
+    },
+    {
+      "path": "references/image-renderings/ink-notes.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/ink-notes.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/ink-notes.md",
+      "bytes": 3361,
+      "sha256": "221f8e122d9376586c9bb235a02cfe651a4dd13a33bdeb3b2add781be1ca15b6"
+    },
+    {
+      "path": "references/image-renderings/minimalist-swiss.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/minimalist-swiss.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/minimalist-swiss.md",
+      "bytes": 2900,
+      "sha256": "73d68098af447c80c08d10bdfb2873eb3f6693d64ac2be4624d4d5a4afb2662d"
+    },
+    {
+      "path": "references/image-renderings/nature.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/nature.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/nature.md",
+      "bytes": 2804,
+      "sha256": "b1f5e7727eaf9a4994d84caf7a3bb32d19cdddf396cd0a72652424ab736883bb"
+    },
+    {
+      "path": "references/image-renderings/paper-cut.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/paper-cut.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/paper-cut.md",
+      "bytes": 2759,
+      "sha256": "c9b53d8adcf19a63814035da176404294f690d9f21c5a5d5afd24ffbe0c4e41b"
+    },
+    {
+      "path": "references/image-renderings/pixel-art.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/pixel-art.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/pixel-art.md",
+      "bytes": 2536,
+      "sha256": "2c051c634c276635ae245ac5f940fb66f3ec8cb8d9bee4db4b54afcb8d290de0"
+    },
+    {
+      "path": "references/image-renderings/screen-print.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/screen-print.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/screen-print.md",
+      "bytes": 2854,
+      "sha256": "ec7025ede1f7efb230d3cd33fd2bf427c2578659b3082226fe9ba548854de306"
+    },
+    {
+      "path": "references/image-renderings/sketch-notes.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/sketch-notes.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/sketch-notes.md",
+      "bytes": 2998,
+      "sha256": "d75ed2ae47dae7726113ac9d1f8aba145016c53458e0383dc8d027246c0667ef"
+    },
+    {
+      "path": "references/image-renderings/vector-illustration.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/vector-illustration.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/vector-illustration.md",
+      "bytes": 2909,
+      "sha256": "c48c2adb70de7fa8755f60718c27e46108e911bbf85343c64866e2e42901b2d4"
+    },
+    {
+      "path": "references/image-renderings/vintage-poster.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/vintage-poster.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/vintage-poster.md",
+      "bytes": 2975,
+      "sha256": "fb786e91ab8d38f1bba5dee0c249a2892a6ee030bc8732a809f94b9449717501"
+    },
+    {
+      "path": "references/image-renderings/warm-scene.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/warm-scene.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/warm-scene.md",
+      "bytes": 2990,
+      "sha256": "4150f3d0962b90f04fec03326c941ccbc36fc1a9990d1b8437b88e15decca7ec"
+    },
+    {
+      "path": "references/image-renderings/watercolor.md",
+      "upstream_path": "skills/ppt-master/references/image-renderings/watercolor.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-renderings/watercolor.md",
+      "bytes": 2457,
+      "sha256": "abd6ebff80c41be95babd255c3e06f9f7cf5218a52c0e4da2e140ce032a39840"
+    },
+    {
+      "path": "references/image-searcher.md",
+      "upstream_path": "skills/ppt-master/references/image-searcher.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-searcher.md",
+      "bytes": 14313,
+      "sha256": "7e064b8a427b083ddcd9b523c3edd1ab60bfe1d23954f0aae4d7da9aa2582312"
+    },
+    {
+      "path": "references/image-type-templates/_index.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/_index.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/_index.md",
+      "bytes": 6229,
+      "sha256": "6a576b2a5b4dd75a63737b3e26359b43a1be029b836e2fb9be7b735a2b402919"
+    },
+    {
+      "path": "references/image-type-templates/comparison.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/comparison.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/comparison.md",
+      "bytes": 3532,
+      "sha256": "3b2d1034893197bab33e43e8f489b831f5c4de867d35e5156896b4f1e24baff4"
+    },
+    {
+      "path": "references/image-type-templates/cycle.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/cycle.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/cycle.md",
+      "bytes": 3315,
+      "sha256": "d7da2ec1afd0b6fc2e41b4ff21fc386660fddb3e0cf4d2b7bb64009886b019a6"
+    },
+    {
+      "path": "references/image-type-templates/flowchart.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/flowchart.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/flowchart.md",
+      "bytes": 2919,
+      "sha256": "3ed7ced001098a0f3502187a23133e9fc7e12003f4cf3da6c00c7f6591db3e4e"
+    },
+    {
+      "path": "references/image-type-templates/framework.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/framework.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/framework.md",
+      "bytes": 4715,
+      "sha256": "ca1e130b216e28208cacd96a715c7e0c2f5fb57f2cb71d9f3d310e4cbce237cc"
+    },
+    {
+      "path": "references/image-type-templates/funnel.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/funnel.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/funnel.md",
+      "bytes": 3786,
+      "sha256": "76b7fe30df7e0d3504528955bb2ff4529dd7d5357cbec83d06356d926416fdcd"
+    },
+    {
+      "path": "references/image-type-templates/infographic.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/infographic.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/infographic.md",
+      "bytes": 3538,
+      "sha256": "0e0359ca4e82e1de76e7658672a8ac1fa69e7c1a4f8c81454742bce48f588a91"
+    },
+    {
+      "path": "references/image-type-templates/map.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/map.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/map.md",
+      "bytes": 3915,
+      "sha256": "e1ae4d9a754749663d28bc8fca6e49efaf138ec8d911bad530874886da9801c5"
+    },
+    {
+      "path": "references/image-type-templates/matrix.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/matrix.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/matrix.md",
+      "bytes": 3676,
+      "sha256": "462fe5f887edbfb9e1eab2c4a9356b5aafc404c1e8e2337bb6f2f9e592d85ccc"
+    },
+    {
+      "path": "references/image-type-templates/pyramid.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/pyramid.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/pyramid.md",
+      "bytes": 3471,
+      "sha256": "086e3158b36b65081b767a0da26c47269b0e8c603d7e74a0eb1c607c55e5e114"
+    },
+    {
+      "path": "references/image-type-templates/scene.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/scene.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/scene.md",
+      "bytes": 3515,
+      "sha256": "94a2499231774a7faab5ef4709e2243b8a6063f92d143cd2e9f568b69b38be58"
+    },
+    {
+      "path": "references/image-type-templates/timeline.md",
+      "upstream_path": "skills/ppt-master/references/image-type-templates/timeline.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/image-type-templates/timeline.md",
+      "bytes": 2849,
+      "sha256": "55836f8012e207cded2f859b44da1542e56f66294d8af88439a53db4ba79dc71"
+    },
+    {
+      "path": "references/modes/_index.md",
+      "upstream_path": "skills/ppt-master/references/modes/_index.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/modes/_index.md",
+      "bytes": 5813,
+      "sha256": "caa597d6d403ad220044a40f7b262a1ac329a5ccba6fa5b2ccdcada15e023125"
+    },
+    {
+      "path": "references/modes/briefing.md",
+      "upstream_path": "skills/ppt-master/references/modes/briefing.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/modes/briefing.md",
+      "bytes": 3027,
+      "sha256": "7d489b71d6f1808b3dfd1232e9a464bd8f681f97e1f1abce9d89d6a77afcf253"
+    },
+    {
+      "path": "references/modes/instructional.md",
+      "upstream_path": "skills/ppt-master/references/modes/instructional.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/modes/instructional.md",
+      "bytes": 2195,
+      "sha256": "87b284c0f84e1834bc5ab84a33e97b777c53762f49cd5e0734ca218998df8303"
+    },
+    {
+      "path": "references/modes/narrative.md",
+      "upstream_path": "skills/ppt-master/references/modes/narrative.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/modes/narrative.md",
+      "bytes": 2453,
+      "sha256": "a8e0fbc4f7d51893e62c80cc6ec7fd8682e99ceace79b20ba3ebb644f10bb6c8"
+    },
+    {
+      "path": "references/modes/pyramid.md",
+      "upstream_path": "skills/ppt-master/references/modes/pyramid.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/modes/pyramid.md",
+      "bytes": 3178,
+      "sha256": "ba63de25672c95fdb67299e1aecb55da67cd8b2b4c28c4fb4a24847fd88adc0f"
+    },
+    {
+      "path": "references/modes/showcase.md",
+      "upstream_path": "skills/ppt-master/references/modes/showcase.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/modes/showcase.md",
+      "bytes": 1927,
+      "sha256": "cc01de6475402fc73d5265c95f4ba303bc7b51e31c08b429254f8033264a914f"
+    },
+    {
+      "path": "references/native-data-interface.md",
+      "upstream_path": "skills/ppt-master/references/native-data-interface.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/native-data-interface.md",
+      "bytes": 11758,
+      "sha256": "32dfa3187bb7f1bd256c28661ec5cdc3116eff9c0e8c389751d9adb45af63be3"
+    },
+    {
+      "path": "references/native-formula.md",
+      "upstream_path": "skills/ppt-master/references/native-formula.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/native-formula.md",
+      "bytes": 6046,
+      "sha256": "e94ec099231e1d72720c3276da5696d708ee54b0037d8c55ed1dc88c011c63b8"
+    },
+    {
+      "path": "references/native-hyperlinks.md",
+      "upstream_path": "skills/ppt-master/references/native-hyperlinks.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/native-hyperlinks.md",
+      "bytes": 5201,
+      "sha256": "83dbe0367aeb73637a068b5dc4fe6635e4226b6509a7d43d971bb557967c33bd"
+    },
+    {
+      "path": "references/native-shape-authoring.md",
+      "upstream_path": "skills/ppt-master/references/native-shape-authoring.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/native-shape-authoring.md",
+      "bytes": 22756,
+      "sha256": "20adf3abb37fcdd6e684e3ec85f3506b5276aeb4082d150d804ca654adac053a"
+    },
+    {
+      "path": "references/plan-core.md",
+      "upstream_path": "skills/ppt-master/references/plan-core.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/plan-core.md",
+      "bytes": 31869,
+      "sha256": "d0563a29c384bf6c857dc644d28e3f8746e6e557b3de337f4a6933e0d5c778c2"
+    },
+    {
+      "path": "references/pptx-structure-interface.md",
+      "upstream_path": "skills/ppt-master/references/pptx-structure-interface.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/pptx-structure-interface.md",
+      "bytes": 12457,
+      "sha256": "19403f867223142d036d4df2597c5dc2ac7f9fc216181813b31670f94b81fd67"
+    },
+    {
+      "path": "references/preset-shape-vocabulary.md",
+      "upstream_path": "skills/ppt-master/references/preset-shape-vocabulary.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/preset-shape-vocabulary.md",
+      "bytes": 10017,
+      "sha256": "96e653b7b7a4af93b0948a633053bacb5492d7c6a6d139e4b60adee70a30ba80"
+    },
+    {
+      "path": "references/semantic-svg.md",
+      "upstream_path": "skills/ppt-master/references/semantic-svg.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/semantic-svg.md",
+      "bytes": 5579,
+      "sha256": "18ea79e380060ec58b856260de79dde1145da2819eed5d262a323117e0664c1b"
+    },
+    {
+      "path": "references/shared-standards-core.md",
+      "upstream_path": "skills/ppt-master/references/shared-standards-core.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/shared-standards-core.md",
+      "bytes": 32310,
+      "sha256": "658bf3ede7e0d16ed28fa6722f3ba451ae6a83325e04f5c4fea4f72915f40770"
+    },
+    {
+      "path": "references/shared-standards.md",
+      "upstream_path": "skills/ppt-master/references/shared-standards.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/shared-standards.md",
+      "bytes": 539,
+      "sha256": "f1b35318bee9f0fb2deacf53c831c6bf3bd0e6c55b876d085cae3f7e28249f87"
+    },
+    {
+      "path": "references/strategist-image.md",
+      "upstream_path": "skills/ppt-master/references/strategist-image.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/strategist-image.md",
+      "bytes": 11827,
+      "sha256": "24aa16ad4285b4e711963a90c9d02a8fe014c9da3f5bf7edf3c6d233059b1c2d"
+    },
+    {
+      "path": "references/strategist-template.md",
+      "upstream_path": "skills/ppt-master/references/strategist-template.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/strategist-template.md",
+      "bytes": 12316,
+      "sha256": "b1f16c722fdb1a5ea85f98bc46b8eb2d3b9b85f4087115f37cff28c1fd98536b"
+    },
+    {
+      "path": "references/strategist.md",
+      "upstream_path": "skills/ppt-master/references/strategist.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/strategist.md",
+      "bytes": 38607,
+      "sha256": "aab716df8ce2d555a93cadd8ac9c84b5b70e181d992d63de2c35908650b91b00"
+    },
+    {
+      "path": "references/svg-effects.md",
+      "upstream_path": "skills/ppt-master/references/svg-effects.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/svg-effects.md",
+      "bytes": 36609,
+      "sha256": "7336d8c1335757dcedd4957ff6b06d73ab4993ada9d566b8e8958e6d950ba489"
+    },
+    {
+      "path": "references/svg-image-embedding.md",
+      "upstream_path": "skills/ppt-master/references/svg-image-embedding.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/svg-image-embedding.md",
+      "bytes": 6485,
+      "sha256": "3a45467f05308717c8d87225d93cf90bd2c7cc30cb54259f45c98648faef7b71"
+    },
+    {
+      "path": "references/template-designer.md",
+      "upstream_path": "skills/ppt-master/references/template-designer.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/template-designer.md",
+      "bytes": 26130,
+      "sha256": "5254933597a762dfe3de825f1419992e2608a13dbead1ae36317b4ace8f2a904"
+    },
+    {
+      "path": "references/topology-assembly.md",
+      "upstream_path": "skills/ppt-master/references/topology-assembly.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/topology-assembly.md",
+      "bytes": 11115,
+      "sha256": "f279e4c44c6835285291cd7aed9550dea733ae675a5873599cd6e1a08971e198"
+    },
+    {
+      "path": "references/video-design.md",
+      "upstream_path": "skills/ppt-master/references/video-design.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/video-design.md",
+      "bytes": 12620,
+      "sha256": "3e85d371b222ffc6b6068632eb575b85af1c63a8380e41efd34d280c755c7184"
+    },
+    {
+      "path": "references/visual-review.md",
+      "upstream_path": "skills/ppt-master/references/visual-review.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-review.md",
+      "bytes": 12809,
+      "sha256": "1eec5c31af0b8e9793af135daee7c1340bd9a411afd389187d46a897d2b01153"
+    },
+    {
+      "path": "references/visual-styles/_index.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/_index.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/_index.md",
+      "bytes": 9471,
+      "sha256": "9f3c706c03a92af501e76fbbabde7475408657b7087940305e2838d596ece251"
+    },
+    {
+      "path": "references/visual-styles/blueprint.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/blueprint.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/blueprint.md",
+      "bytes": 2937,
+      "sha256": "77f0f5d1f792a8dba06223d9c9f614e2235b5d2f18cf0533690fb5fb6baffd5c"
+    },
+    {
+      "path": "references/visual-styles/brutalist.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/brutalist.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/brutalist.md",
+      "bytes": 3114,
+      "sha256": "30589cc55c46f55b4af3963b11cdb0045d43aa648943b7e555c5efba50fb3e78"
+    },
+    {
+      "path": "references/visual-styles/chalkboard.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/chalkboard.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/chalkboard.md",
+      "bytes": 2366,
+      "sha256": "b88b045f7018448fffbe886a231e398310005291213db470f4538fa251d0f3c4"
+    },
+    {
+      "path": "references/visual-styles/dark-tech.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/dark-tech.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/dark-tech.md",
+      "bytes": 2245,
+      "sha256": "4b05ab8289f611866ca3fd6d7dcf5de40074609fa26f352530a267509d7c027e"
+    },
+    {
+      "path": "references/visual-styles/data-journalism.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/data-journalism.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/data-journalism.md",
+      "bytes": 2893,
+      "sha256": "c184b218543ae6010595c52e192052f18381eae3be20a475499a34ef77a0c825"
+    },
+    {
+      "path": "references/visual-styles/editorial.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/editorial.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/editorial.md",
+      "bytes": 2522,
+      "sha256": "24596a50d1a30755382e0ac8599d0290d81bf59751ee54acff0cf6106afcf61c"
+    },
+    {
+      "path": "references/visual-styles/glassmorphism.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/glassmorphism.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/glassmorphism.md",
+      "bytes": 2765,
+      "sha256": "b83ff4c2bc1c4ec4d700961c030bd0f4389f9250f4bf6ef221234ba72e39d522"
+    },
+    {
+      "path": "references/visual-styles/ink-notes.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/ink-notes.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/ink-notes.md",
+      "bytes": 2772,
+      "sha256": "a4fe6648375ae88e72c88b0d7a73d16f233f53c585bbf3868b02d4c17e69db73"
+    },
+    {
+      "path": "references/visual-styles/ink-wash.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/ink-wash.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/ink-wash.md",
+      "bytes": 2849,
+      "sha256": "c884a163e09f92086d494982252ada040de952c592291c297465d330f05054a7"
+    },
+    {
+      "path": "references/visual-styles/memphis.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/memphis.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/memphis.md",
+      "bytes": 2670,
+      "sha256": "991b35fcdf21ad81d84109d46db4f55586701bbc0b6e4bcd143b41d1184bfed3"
+    },
+    {
+      "path": "references/visual-styles/paper-cut.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/paper-cut.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/paper-cut.md",
+      "bytes": 2645,
+      "sha256": "515349c5863cee1b6ce9d32056b871809fd017c35e74075d017968efcec3e8e7"
+    },
+    {
+      "path": "references/visual-styles/photo-editorial.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/photo-editorial.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/photo-editorial.md",
+      "bytes": 2868,
+      "sha256": "12978bb1d6ebfd7ae1f12cba128a005b1bff3b45e301c62ab9bbc57424cf0529"
+    },
+    {
+      "path": "references/visual-styles/pixel-art.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/pixel-art.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/pixel-art.md",
+      "bytes": 2504,
+      "sha256": "df9d3986dc21adddbe8f1c4c38745f64a4a55dd15c7b6b5487beb412148a3a32"
+    },
+    {
+      "path": "references/visual-styles/sketch-notes.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/sketch-notes.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/sketch-notes.md",
+      "bytes": 2555,
+      "sha256": "d5c0ad865c059821482f06b62ffe26207c0621c5a978d49c50945b1678167d74"
+    },
+    {
+      "path": "references/visual-styles/soft-rounded.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/soft-rounded.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/soft-rounded.md",
+      "bytes": 2520,
+      "sha256": "a18df3546bbb4920777342d4cb7846a469784b8d151b4efa2900cb2393e2d711"
+    },
+    {
+      "path": "references/visual-styles/swiss-minimal.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/swiss-minimal.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/swiss-minimal.md",
+      "bytes": 2953,
+      "sha256": "bb593bb8fa4da77cc525d6143a25d20e9480f14107bec85c7952996afc8faef1"
+    },
+    {
+      "path": "references/visual-styles/vintage-poster.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/vintage-poster.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/vintage-poster.md",
+      "bytes": 2672,
+      "sha256": "4aeb8e6ac8cffe20da8f08f39c02e91388f0f44a2912fde603e214a2d38b2ab1"
+    },
+    {
+      "path": "references/visual-styles/zine.md",
+      "upstream_path": "skills/ppt-master/references/visual-styles/zine.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/references/visual-styles/zine.md",
+      "bytes": 2782,
+      "sha256": "26c2348e82f71641a1c8b5e5f3038740aa29441539f38a964e41c0276ada6a54"
+    },
+    {
+      "path": "scripts/README.md",
+      "upstream_path": "skills/ppt-master/scripts/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/README.md",
+      "bytes": 35808,
+      "sha256": "138ecf1d666ac9b09b6b5dc34e2fe6cd3a2255372575478d1bbe4be2f250f102"
+    },
+    {
+      "path": "scripts/docs/advanced-image-motion-smoke.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/advanced-image-motion-smoke.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/advanced-image-motion-smoke.md",
+      "bytes": 12647,
+      "sha256": "23acb3f87bb14916952f7a7cd126cba2043b03ae98465a3ad1918c297ad5d13a"
+    },
+    {
+      "path": "scripts/docs/chart-recall.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/chart-recall.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/chart-recall.md",
+      "bytes": 1183,
+      "sha256": "7d956b27da091f1900c89dc324074613321898bc8ff46e0da174a202aed687cd"
+    },
+    {
+      "path": "scripts/docs/confirm_ui.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/confirm_ui.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/confirm_ui.md",
+      "bytes": 56352,
+      "sha256": "6bad9c498cccaa6691a86d28ec12b83a058b3c79af48459b35c2ba6c4a4fe840"
+    },
+    {
+      "path": "scripts/docs/conversion.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/conversion.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/conversion.md",
+      "bytes": 44331,
+      "sha256": "e5a2341ec57ce7fefe6ee644725058439ddeaec366eca1cc4b25b474baceb061"
+    },
+    {
+      "path": "scripts/docs/image.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/image.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/image.md",
+      "bytes": 44803,
+      "sha256": "65ab9e089e71ba29dd30522dba4664075f01d10aecbbdfad7de5a538556e67a2"
+    },
+    {
+      "path": "scripts/docs/mask-gradient-smoke.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/mask-gradient-smoke.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/mask-gradient-smoke.md",
+      "bytes": 9009,
+      "sha256": "6caaf140cc078af13b4d1400c7d77a36554de8e0c118a13f5e8bda8379857fdd"
+    },
+    {
+      "path": "scripts/docs/multilingual-text-smoke.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/multilingual-text-smoke.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/multilingual-text-smoke.md",
+      "bytes": 10649,
+      "sha256": "8e1fded2e02c7dd625b1243a19ed5dcd8b1b74f06ca80d62a1d01626cf352659"
+    },
+    {
+      "path": "scripts/docs/narration.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/narration.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/narration.md",
+      "bytes": 17989,
+      "sha256": "d4ed1bb0ffa7b970e176b26b3c390e0cb7425e5600eeff38fafad974651c9cbb"
+    },
+    {
+      "path": "scripts/docs/native-data.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/native-data.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/native-data.md",
+      "bytes": 22299,
+      "sha256": "95b6f83d61bc7f10dd900fc14742468481cf9be806facfad3de92c73ae786371"
+    },
+    {
+      "path": "scripts/docs/pptx-animations.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/pptx-animations.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/pptx-animations.md",
+      "bytes": 20823,
+      "sha256": "a5457ea2e5609d1c9e6d0ab1c4d2049ca5a7a729b9b72844d32cb0dea60a3472"
+    },
+    {
+      "path": "scripts/docs/pptx-transitions.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/pptx-transitions.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/pptx-transitions.md",
+      "bytes": 13595,
+      "sha256": "e644ac86f4a39f6fce13c1998d1e5fa04307a265060bf7ddfdc2070f3e30dc8b"
+    },
+    {
+      "path": "scripts/docs/project.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/project.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/project.md",
+      "bytes": 19340,
+      "sha256": "af4b8e97f32b2ee38552675f0f1833346f2c4529a118c99e3cb32b91b0ef0052"
+    },
+    {
+      "path": "scripts/docs/prompt_audit.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/prompt_audit.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/prompt_audit.md",
+      "bytes": 6383,
+      "sha256": "e4f4aab53fc93e3eeb7d525a38f9bca2c893fbdb1d15f55fdaccd5a3eeb5b827"
+    },
+    {
+      "path": "scripts/docs/spec_review.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/spec_review.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/spec_review.md",
+      "bytes": 13871,
+      "sha256": "3cd5fce343aa95090ff4aaa7f6226c921e2b25becd0495f89f1510536a5fe518"
+    },
+    {
+      "path": "scripts/docs/svg-contract.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/svg-contract.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/svg-contract.md",
+      "bytes": 57987,
+      "sha256": "125cc00987810e807e50e1bbf5917a4eb610f0684147587cad79b8008f10788e"
+    },
+    {
+      "path": "scripts/docs/svg-pipeline.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/svg-pipeline.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/svg-pipeline.md",
+      "bytes": 107620,
+      "sha256": "dcffd1fbf468d117ba5c5d1a59f3624bfc79f011bd1197f6b126e25306da843e"
+    },
+    {
+      "path": "scripts/docs/svg_editor.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/svg_editor.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/svg_editor.md",
+      "bytes": 7170,
+      "sha256": "87512283046c93d2183948ec8843db0b11253fa80ebf89724f79690e6aee552a"
+    },
+    {
+      "path": "scripts/docs/template-tools.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/template-tools.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/template-tools.md",
+      "bytes": 19232,
+      "sha256": "3661f8156b06ff946c981486fdee04f5520494da2a510d888d6d782b94e0a085"
+    },
+    {
+      "path": "scripts/docs/troubleshooting.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/troubleshooting.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/troubleshooting.md",
+      "bytes": 3163,
+      "sha256": "f6f946588fb9457aecb9bd8092552f10745f6cd0db430d45e58fa10b80bb3ef2"
+    },
+    {
+      "path": "scripts/docs/update_spec.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/update_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/update_spec.md",
+      "bytes": 4354,
+      "sha256": "98bf787a10ce115399098722b76348f715388d1270876ea45cd6867eb5959465"
+    },
+    {
+      "path": "scripts/docs/video-motion-plan.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/video-motion-plan.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/video-motion-plan.md",
+      "bytes": 4027,
+      "sha256": "f6bb3a69fe57066cdcb3e3424644256b6af03659a3c663aa10bfd1d8bbbbb921"
+    },
+    {
+      "path": "scripts/docs/visualization-recall.md",
+      "upstream_path": "skills/ppt-master/scripts/docs/visualization-recall.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/docs/visualization-recall.md",
+      "bytes": 5385,
+      "sha256": "21a6085cb091e5f5ba26a959a6d20fe5e0b90eef74ca72b910e92fcb63eb0ec5"
+    },
+    {
+      "path": "scripts/pptx_shapes/data/NOTICE.md",
+      "upstream_path": "skills/ppt-master/scripts/pptx_shapes/data/NOTICE.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/scripts/pptx_shapes/data/NOTICE.md",
+      "bytes": 2365,
+      "sha256": "57f3e499fbf289e2d03a3a494ea69a5cd1685a707ad8f2618e46144ea1ec88cb"
+    },
+    {
+      "path": "templates/README.md",
+      "upstream_path": "skills/ppt-master/templates/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/README.md",
+      "bytes": 6278,
+      "sha256": "e40b8a20751a8dd42e3fe511887aed7abbb253af148cf1262562312fbdf4c923"
+    },
+    {
+      "path": "templates/VISUALIZATION_TEMPLATE_AUTHORING.md",
+      "upstream_path": "skills/ppt-master/templates/VISUALIZATION_TEMPLATE_AUTHORING.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/VISUALIZATION_TEMPLATE_AUTHORING.md",
+      "bytes": 23605,
+      "sha256": "7cabf0746fc5258366e101222194d2ab4198d2e85ad56fe63659ca3450076811"
+    },
+    {
+      "path": "templates/brands/README.md",
+      "upstream_path": "skills/ppt-master/templates/brands/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/README.md",
+      "bytes": 2058,
+      "sha256": "02eab3d24b6f30077688bb7409aaf6e6442d8256ea4e33e9b1d45c1b48d97deb"
+    },
+    {
+      "path": "templates/brands/accenture/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/accenture/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/accenture/templates/design_spec.md",
+      "bytes": 3866,
+      "sha256": "8132a0f085edcd8d8e3643caa2ab1b633e16f855be43aa04a006d63a1bcca7d2"
+    },
+    {
+      "path": "templates/brands/alibaba/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/alibaba/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/alibaba/templates/design_spec.md",
+      "bytes": 4124,
+      "sha256": "c8f1f528c2ce000136f1f018fac40a56fff5d7e2650bd83e53b13465c0c4fb83"
+    },
+    {
+      "path": "templates/brands/anthropic/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/anthropic/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/anthropic/templates/design_spec.md",
+      "bytes": 3723,
+      "sha256": "8d83ba27e53c1e80bc4420df684470f7ba8f8f29fcbc70648d6d4f41a82628d5"
+    },
+    {
+      "path": "templates/brands/aws/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/aws/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/aws/templates/design_spec.md",
+      "bytes": 3997,
+      "sha256": "90ffd69c2bab5157f0ed6844fb8457ec433780b756014016503916b0d37c0f8f"
+    },
+    {
+      "path": "templates/brands/bain/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/bain/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/bain/templates/design_spec.md",
+      "bytes": 3557,
+      "sha256": "c288e4c8d41411cd2b63f911025385183ed63799473074e743e5566318ce5c55"
+    },
+    {
+      "path": "templates/brands/bcg/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/bcg/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/bcg/templates/design_spec.md",
+      "bytes": 3606,
+      "sha256": "e982d272b801c1628d6c380ecd7a2a1cdf0bd10c9f2cfe980be0c75484d065f3"
+    },
+    {
+      "path": "templates/brands/deloitte/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/deloitte/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/deloitte/templates/design_spec.md",
+      "bytes": 3729,
+      "sha256": "90df1de1f2087e7809a467b07566cbad86f6a9b074d49f913ff4243e5890f525"
+    },
+    {
+      "path": "templates/brands/google/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/google/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/google/templates/design_spec.md",
+      "bytes": 3346,
+      "sha256": "f4f80314a4f146719db124605cb7fd75b91e1d7fe1e4572f3593ee6b54ee3022"
+    },
+    {
+      "path": "templates/brands/huawei/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/huawei/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/huawei/templates/design_spec.md",
+      "bytes": 4048,
+      "sha256": "0667e101b95904409ca30d9e7ee2ce46999949297a4f2cdf46b27a062c4820be"
+    },
+    {
+      "path": "templates/brands/ibm/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/ibm/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/ibm/templates/design_spec.md",
+      "bytes": 3861,
+      "sha256": "b171fec308eb593aa5c02074e78587714d377a04a29323cb128e0a9d213d15f0"
+    },
+    {
+      "path": "templates/brands/jpmorgan/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/jpmorgan/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/jpmorgan/templates/design_spec.md",
+      "bytes": 4009,
+      "sha256": "0ca629cb1e012f102cc71431bb0255d2a8ccccacf766a1988f6f59822f90c88a"
+    },
+    {
+      "path": "templates/brands/mckinsey/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/mckinsey/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/mckinsey/templates/design_spec.md",
+      "bytes": 3409,
+      "sha256": "3b58b2a71ecdbcdeb5b7b7590fcfafb403528dcc32fde54628b689838faa63cc"
+    },
+    {
+      "path": "templates/brands/microsoft/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/microsoft/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/microsoft/templates/design_spec.md",
+      "bytes": 4243,
+      "sha256": "df0c553ab004336c5a45bc01d6b17df15d2cf62b6ee14745215b9894bade32a6"
+    },
+    {
+      "path": "templates/brands/nvidia/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/nvidia/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/nvidia/templates/design_spec.md",
+      "bytes": 4033,
+      "sha256": "3a3fdd83e4148ed84df3cd443c3167524acd8b97aa80d8df21443e7a49beec80"
+    },
+    {
+      "path": "templates/brands/pwc/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/pwc/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/pwc/templates/design_spec.md",
+      "bytes": 3892,
+      "sha256": "ddb908367535843fafd37be498c3d6e758ef688f44f0935d403f24446d5b459c"
+    },
+    {
+      "path": "templates/brands/tencent/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/tencent/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/tencent/templates/design_spec.md",
+      "bytes": 3741,
+      "sha256": "8a69bbaa972929e1f5dda2bef4ae96f6fc8661a22d299a56a17920810c225bad"
+    },
+    {
+      "path": "templates/brands/xiaomi/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/xiaomi/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/xiaomi/templates/design_spec.md",
+      "bytes": 4000,
+      "sha256": "c5ce74a02fdcbdbd04594c23f44c01abe6f71964896e96356fd84ae5f02cd71d"
+    },
+    {
+      "path": "templates/brands/zcare-rescue/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/zcare-rescue/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/zcare-rescue/templates/design_spec.md",
+      "bytes": 4022,
+      "sha256": "0fe6508ec2673289a52e51b9b13cc274dbcc6c72658ceabceb86ef5af7c66e93"
+    },
+    {
+      "path": "templates/brands/\u4e2d\u56fd\u7535\u4fe1/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/\u4e2d\u56fd\u7535\u4fe1/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1/templates/design_spec.md",
+      "bytes": 4107,
+      "sha256": "4ff30f9be3e7d6028b64b55e14709b574815e00d5485085c377eb8984f8c03a9"
+    },
+    {
+      "path": "templates/brands/\u4e2d\u56fd\u7535\u5efa/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/\u4e2d\u56fd\u7535\u5efa/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BB%BA/templates/design_spec.md",
+      "bytes": 4575,
+      "sha256": "cfcd1249555f383e181af10dea90041f742b37b0747083bcfe9375b45652d550"
+    },
+    {
+      "path": "templates/brands/\u4e2d\u6c7d\u7814/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/brands/\u4e2d\u6c7d\u7814/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/brands/%E4%B8%AD%E6%B1%BD%E7%A0%94/templates/design_spec.md",
+      "bytes": 3592,
+      "sha256": "ad87488628d6ec995c507a5f9e12f4c2d49283154765222b0c178d77ebd22a99"
+    },
+    {
+      "path": "templates/charts/README.md",
+      "upstream_path": "skills/ppt-master/templates/charts/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/charts/README.md",
+      "bytes": 3392,
+      "sha256": "cf614cc573decc13712ed3818ee2d1f2327c3edd64961ace2357b8afc2cc43fe"
+    },
+    {
+      "path": "templates/charts/chart-vocabulary.md",
+      "upstream_path": "skills/ppt-master/templates/charts/chart-vocabulary.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/charts/chart-vocabulary.md",
+      "bytes": 4432,
+      "sha256": "e3c342d10208266437b01b6c32732f095c00debf514d7592cddaf683c927a1ab"
+    },
+    {
+      "path": "templates/decks/README.md",
+      "upstream_path": "skills/ppt-master/templates/decks/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/decks/README.md",
+      "bytes": 4654,
+      "sha256": "d8f7f54319a520454111b05f9b5820c9b91d5735ceade2ba3de4aa727fcf8170"
+    },
+    {
+      "path": "templates/decks/\u4e2d\u56fd\u7535\u4fe1/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/decks/\u4e2d\u56fd\u7535\u4fe1/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/decks/%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1/templates/design_spec.md",
+      "bytes": 4623,
+      "sha256": "d18293f286cecae04be89081b6e45737a8f0dddee5666dc5a27d8e5c5560885b"
+    },
+    {
+      "path": "templates/decks/\u4e2d\u6c7d\u7814/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/decks/\u4e2d\u6c7d\u7814/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/decks/%E4%B8%AD%E6%B1%BD%E7%A0%94/templates/design_spec.md",
+      "bytes": 4405,
+      "sha256": "b033a990a386cf8e937d6ef20488be6375dad40f8b844f8ad1b56d6e42eb854f"
+    },
+    {
+      "path": "templates/design_spec_reference.md",
+      "upstream_path": "skills/ppt-master/templates/design_spec_reference.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/design_spec_reference.md",
+      "bytes": 15644,
+      "sha256": "7e38dade488af4a8a8b46c3bc99255147aa5761a1fa5fff9f61f0ea47b9565f8"
+    },
+    {
+      "path": "templates/icons/README.md",
+      "upstream_path": "skills/ppt-master/templates/icons/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/icons/README.md",
+      "bytes": 6093,
+      "sha256": "0081d9efe8bffe97a14749d8e1d4929bca304a54cd33197b51c85727c8a448c1"
+    },
+    {
+      "path": "templates/icons/THIRD_PARTY_NOTICES.md",
+      "upstream_path": "skills/ppt-master/templates/icons/THIRD_PARTY_NOTICES.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/icons/THIRD_PARTY_NOTICES.md",
+      "bytes": 5682,
+      "sha256": "65595b92371f4d2005e3ee54c8ce6d815c67266e91cc5b050b724224b3ef8b9c"
+    },
+    {
+      "path": "templates/layouts/README.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/README.md",
+      "bytes": 5260,
+      "sha256": "a89f8f6bfb3a83121fe22edba1168010fe983aed47a8d4e2aa06da2a1189a6c8"
+    },
+    {
+      "path": "templates/layouts/editorial_bleed/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/editorial_bleed/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/editorial_bleed/templates/design_spec.md",
+      "bytes": 6121,
+      "sha256": "e229df45ca0f0fde7cb5ecf826fa92611887246f6e6795c97c16ac8c7ae4edd8"
+    },
+    {
+      "path": "templates/layouts/moments_square/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/moments_square/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/moments_square/templates/design_spec.md",
+      "bytes": 4299,
+      "sha256": "130d2c510ae554608ef1b8d31a1455ce1559ddacd1db7c52cd092431f0cc3062"
+    },
+    {
+      "path": "templates/layouts/presentation_core/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/presentation_core/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/presentation_core/templates/design_spec.md",
+      "bytes": 6186,
+      "sha256": "14c54063ed5ad3c8aff164bf0c58e76ef1a70743e247dec5d5b1fef8e8915512"
+    },
+    {
+      "path": "templates/layouts/presentation_core_43/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/presentation_core_43/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/presentation_core_43/templates/design_spec.md",
+      "bytes": 5874,
+      "sha256": "ead0d6d1d72b5601933740bf32c9d1021c652c25293aaaa234445fe8d654bf1e"
+    },
+    {
+      "path": "templates/layouts/report_core/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/report_core/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/report_core/templates/design_spec.md",
+      "bytes": 6811,
+      "sha256": "2c573b2fc65709c621b61b7b7bb5aa7fd4d755b7073df61e164c78b930f9afed"
+    },
+    {
+      "path": "templates/layouts/story_vertical/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/story_vertical/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/story_vertical/templates/design_spec.md",
+      "bytes": 4867,
+      "sha256": "676d3485a5586360b7fa1206083e177465ec0d9c15f8ff2e2f5bf972ead25b90"
+    },
+    {
+      "path": "templates/layouts/xiaohongshu_post/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/layouts/xiaohongshu_post/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/layouts/xiaohongshu_post/templates/design_spec.md",
+      "bytes": 5035,
+      "sha256": "46538197915324a12b6cd2a0cba74063530f6bdaa753bb19c5e0df848d580079"
+    },
+    {
+      "path": "templates/scaffolds/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/scaffolds/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/scaffolds/design_spec.md",
+      "bytes": 3021,
+      "sha256": "199ca11a9eae950a63b790090ebaf8b2942807d34f8b154cf09aa270fdb61587"
+    },
+    {
+      "path": "templates/scaffolds/spec_lock.md",
+      "upstream_path": "skills/ppt-master/templates/scaffolds/spec_lock.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/scaffolds/spec_lock.md",
+      "bytes": 858,
+      "sha256": "b04def0962247560e74eb57b26daed65aab64566c71ecc43ad9ab44fcdd80194"
+    },
+    {
+      "path": "templates/sounds/README.md",
+      "upstream_path": "skills/ppt-master/templates/sounds/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/sounds/README.md",
+      "bytes": 2714,
+      "sha256": "b3ca07f0589b9b27d6b36639abd59440f052f3ef32f4b573d33c23c964743ce1"
+    },
+    {
+      "path": "templates/sounds/THIRD_PARTY_NOTICES.md",
+      "upstream_path": "skills/ppt-master/templates/sounds/THIRD_PARTY_NOTICES.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/sounds/THIRD_PARTY_NOTICES.md",
+      "bytes": 3204,
+      "sha256": "a76406ce994483bc96ade9abc1ab8970bf6fef1478b3ce018178e331ac70862e"
+    },
+    {
+      "path": "templates/sounds/sound-vocabulary.md",
+      "upstream_path": "skills/ppt-master/templates/sounds/sound-vocabulary.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/sounds/sound-vocabulary.md",
+      "bytes": 17426,
+      "sha256": "bb80a7f31ca9c2358f12f5dddfc500d71c63fc559bfef4989db0b50f14b66633"
+    },
+    {
+      "path": "templates/spec_lock_reference.md",
+      "upstream_path": "skills/ppt-master/templates/spec_lock_reference.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/spec_lock_reference.md",
+      "bytes": 10024,
+      "sha256": "bfff7c1104a125c8b42b9b183758f125e0dfe133cb007eddb73de035227951df"
+    },
+    {
+      "path": "templates/styles/README.md",
+      "upstream_path": "skills/ppt-master/templates/styles/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/README.md",
+      "bytes": 4697,
+      "sha256": "450d67d1459bff86549bd186134d1bef05326672978ed0fcfd1f6a1c632c6b87"
+    },
+    {
+      "path": "templates/styles/academic-research/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/academic-research/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/academic-research/templates/design_spec.md",
+      "bytes": 10895,
+      "sha256": "1ceb141b84bdc32166a06b05d71571dec8d3752873dd104588d7cac9046d0f9e"
+    },
+    {
+      "path": "templates/styles/consulting-decision/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/consulting-decision/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/consulting-decision/templates/design_spec.md",
+      "bytes": 9366,
+      "sha256": "85c66769106095b5b7ca68ae9e7798bd01436f9f1adff710cde4c10998434b5e"
+    },
+    {
+      "path": "templates/styles/creative-pitch/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/creative-pitch/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/creative-pitch/templates/design_spec.md",
+      "bytes": 10582,
+      "sha256": "9507337a934a7f1a53c05e800a48eb66ec61ce101753c4b77f9b21612a8eba7c"
+    },
+    {
+      "path": "templates/styles/duty-manual/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/duty-manual/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/duty-manual/templates/design_spec.md",
+      "bytes": 13782,
+      "sha256": "32c112610ff29f0c1099620343241309bd892c92d627e973cc19e1cc5e716f9a"
+    },
+    {
+      "path": "templates/styles/incident-postmortem/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/incident-postmortem/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/incident-postmortem/templates/design_spec.md",
+      "bytes": 10839,
+      "sha256": "9d69543e5f65872f933104302eacc7c3f8156a034cb2a81f4348f1848ea65cad"
+    },
+    {
+      "path": "templates/styles/investor-pitch/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/investor-pitch/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/investor-pitch/templates/design_spec.md",
+      "bytes": 10633,
+      "sha256": "8c591f8cc1c8407656c8a3acf5e53162129c5d25705899bcb848650d33a182db"
+    },
+    {
+      "path": "templates/styles/mbb-consulting/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/mbb-consulting/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/mbb-consulting/templates/design_spec.md",
+      "bytes": 13815,
+      "sha256": "e3089fa6be552b929da072a542bf59c939044a97dc61710dff87ed8bce307677"
+    },
+    {
+      "path": "templates/styles/narrative-keynote/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/narrative-keynote/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/narrative-keynote/templates/design_spec.md",
+      "bytes": 9362,
+      "sha256": "cac3aaa83c61cf064f57a2b773a6ec6344abccc0da43e59645a88c3978e1c6fe"
+    },
+    {
+      "path": "templates/styles/operating-review/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/operating-review/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/operating-review/templates/design_spec.md",
+      "bytes": 11463,
+      "sha256": "bfe7b85fa970a50d019e2235b30a687a906f9d82fa4f8c64198d97182ee14a78"
+    },
+    {
+      "path": "templates/styles/product-launch/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/product-launch/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/product-launch/templates/design_spec.md",
+      "bytes": 9131,
+      "sha256": "3ae62a3ed6da214d83d53a05f6d6a3b3e9c4d49edb35a6c238afadf42b08327e"
+    },
+    {
+      "path": "templates/styles/science-explainer/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/science-explainer/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/science-explainer/templates/design_spec.md",
+      "bytes": 10274,
+      "sha256": "a68ac6e9bdda7c48518e8999c227df99d4099007048e4254faef934ae7947a02"
+    },
+    {
+      "path": "templates/styles/solution-proposal/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/solution-proposal/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/solution-proposal/templates/design_spec.md",
+      "bytes": 10794,
+      "sha256": "6f6d5e6d56d1273ea94db91d5b7d6e56cb4963757ca51a5fd154da0837382d65"
+    },
+    {
+      "path": "templates/styles/technical-deepdive/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/technical-deepdive/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/technical-deepdive/templates/design_spec.md",
+      "bytes": 10317,
+      "sha256": "8b56f50c9424c6b758b48798df4ff6fd642dd8d80ac0c2d3b716a64c761e90bc"
+    },
+    {
+      "path": "templates/styles/workshop-teaching/templates/design_spec.md",
+      "upstream_path": "skills/ppt-master/templates/styles/workshop-teaching/templates/design_spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/styles/workshop-teaching/templates/design_spec.md",
+      "bytes": 9347,
+      "sha256": "166be96918552725d207267097f59881d3ef0cdd3dc564dda406363ae3c29a64"
+    },
+    {
+      "path": "templates/tables/README.md",
+      "upstream_path": "skills/ppt-master/templates/tables/README.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/tables/README.md",
+      "bytes": 3496,
+      "sha256": "1cf774d8debde7f13c92721c608e100dead4db97bd3ce76faed2257b8ea2f06f"
+    },
+    {
+      "path": "templates/tables/table-vocabulary.md",
+      "upstream_path": "skills/ppt-master/templates/tables/table-vocabulary.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/templates/tables/table-vocabulary.md",
+      "bytes": 1544,
+      "sha256": "085ede1582a161a0b61b674239aee6164a96a883a0cd50575f45ce613701ff34"
+    },
+    {
+      "path": "workflows/create-template.md",
+      "upstream_path": "skills/ppt-master/workflows/create-template.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/create-template.md",
+      "bytes": 41038,
+      "sha256": "12a3bd67aee503cbbed60120477f849dfcfe5494bb736b52efbcf97b03c82b66"
+    },
+    {
+      "path": "workflows/create-template/create-brand.md",
+      "upstream_path": "skills/ppt-master/workflows/create-template/create-brand.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/create-template/create-brand.md",
+      "bytes": 6299,
+      "sha256": "bd66b43bf88215f8c1b0585dfc56b4be657f4d24f41965eaab62eb6f699e0b12"
+    },
+    {
+      "path": "workflows/create-template/create-deck.md",
+      "upstream_path": "skills/ppt-master/workflows/create-template/create-deck.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/create-template/create-deck.md",
+      "bytes": 6648,
+      "sha256": "cc76d17c3289ef56b52e074dd857f5a5e052e8d8280365570fe63cbe7a533315"
+    },
+    {
+      "path": "workflows/create-template/create-layout.md",
+      "upstream_path": "skills/ppt-master/workflows/create-template/create-layout.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/create-template/create-layout.md",
+      "bytes": 6695,
+      "sha256": "83fd7ec1afe484bd283b98a8109a9eb35f41538b0f25f9541dcf982efd5e399d"
+    },
+    {
+      "path": "workflows/create-template/create-style.md",
+      "upstream_path": "skills/ppt-master/workflows/create-template/create-style.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/create-template/create-style.md",
+      "bytes": 8397,
+      "sha256": "64d3c0dc30ba2e9d3175113d45001b94eed4d6476d84e3d2b79808fa713c4414"
+    },
+    {
+      "path": "workflows/edit-native-pptx.md",
+      "upstream_path": "skills/ppt-master/workflows/edit-native-pptx.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/edit-native-pptx.md",
+      "bytes": 19764,
+      "sha256": "7721802b91a5b2a12e2a50c5a85a7adb03960a19dbce1f17d7ba7309d3653763"
+    },
+    {
+      "path": "workflows/generate-pptx.md",
+      "upstream_path": "skills/ppt-master/workflows/generate-pptx.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/generate-pptx.md",
+      "bytes": 46470,
+      "sha256": "3639027ce5e3ff8e328cc0056440a4cb308306fc7503d725a62c6b39e1221048"
+    },
+    {
+      "path": "workflows/governance/failure-recovery.md",
+      "upstream_path": "skills/ppt-master/workflows/governance/failure-recovery.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/governance/failure-recovery.md",
+      "bytes": 12207,
+      "sha256": "40110e212df00840c7598bc60d25002d8d7d617eb5a9bb017c8e7b737683e391"
+    },
+    {
+      "path": "workflows/index.md",
+      "upstream_path": "skills/ppt-master/workflows/index.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/index.md",
+      "bytes": 3740,
+      "sha256": "73e2914328401079162bdda6e8dea71f18dd948b89f02831de9c53df9c245a08"
+    },
+    {
+      "path": "workflows/profiles/beautify-pptx.md",
+      "upstream_path": "skills/ppt-master/workflows/profiles/beautify-pptx.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/profiles/beautify-pptx.md",
+      "bytes": 20776,
+      "sha256": "0d6d516d66037d1576bf9902624ef197639e2d5d4a14c99051d6907231b6313f"
+    },
+    {
+      "path": "workflows/profiles/image-to-pptx.md",
+      "upstream_path": "skills/ppt-master/workflows/profiles/image-to-pptx.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/profiles/image-to-pptx.md",
+      "bytes": 20199,
+      "sha256": "3c6791b2f1a3964117c1306a0b7067e6e245eb1da8fdda14f815988733f144c2"
+    },
+    {
+      "path": "workflows/profiles/quick-generate.md",
+      "upstream_path": "skills/ppt-master/workflows/profiles/quick-generate.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/profiles/quick-generate.md",
+      "bytes": 37194,
+      "sha256": "566b41eb98fd7e23d49eaa86a703b59076c18b2debfb27a7f8c6ede79deaed9a"
+    },
+    {
+      "path": "workflows/routing.md",
+      "upstream_path": "skills/ppt-master/workflows/routing.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/routing.md",
+      "bytes": 14443,
+      "sha256": "967abcfad9e3b9dd0f292320ad4c2d3aba5877589038f62ce772c3e8d940bc22"
+    },
+    {
+      "path": "workflows/stages/apply-template-workspace.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/apply-template-workspace.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/apply-template-workspace.md",
+      "bytes": 13068,
+      "sha256": "1a3fb46bae93147bc44dbb3a83a58e637e5a8ba6cb8af1f88ca4b34629acc3f4"
+    },
+    {
+      "path": "workflows/stages/customize-animations.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/customize-animations.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/customize-animations.md",
+      "bytes": 17961,
+      "sha256": "78a52776679a750e1931b3d1e69841aa2983dd0a9ccb71caa0a307dd897b282b"
+    },
+    {
+      "path": "workflows/stages/generate-audio.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/generate-audio.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/generate-audio.md",
+      "bytes": 15244,
+      "sha256": "aa3f819aec96647d1451221dbae6e86a70e4db2f93eef3825cce289b5e7e9134"
+    },
+    {
+      "path": "workflows/stages/live-preview.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/live-preview.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/live-preview.md",
+      "bytes": 3556,
+      "sha256": "84e60fe3a4e3d6d3e4ceb6575f3601523a20a3d8ce96c06237653f3699e69bd9"
+    },
+    {
+      "path": "workflows/stages/refine-spec.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/refine-spec.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/refine-spec.md",
+      "bytes": 6191,
+      "sha256": "71ff3dc35c9fb23bdb2c31e82b3332d2763be250d050c0aaa71d319e85355868"
+    },
+    {
+      "path": "workflows/stages/resume-execute.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/resume-execute.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/resume-execute.md",
+      "bytes": 6433,
+      "sha256": "5d37fc0b4ba7859299150bb895018d727f98a2c15ea0d5a87150114d6458714a"
+    },
+    {
+      "path": "workflows/stages/topic-research.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/topic-research.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/topic-research.md",
+      "bytes": 9490,
+      "sha256": "3be30ca5d5fccfac3c61cab08e5e1b05f6c7dbc03e35f2fef0834a2e5bf9aebf"
+    },
+    {
+      "path": "workflows/stages/verify-charts.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/verify-charts.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/verify-charts.md",
+      "bytes": 9563,
+      "sha256": "b3de519e370ba5e83200534f5824987f51a7909057c25d0fb201078d97dba919"
+    },
+    {
+      "path": "workflows/stages/visual-review.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/visual-review.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/visual-review.md",
+      "bytes": 7460,
+      "sha256": "8ed66a195aec2e4452d700d91ef346fa2e4da5739064642be8e3dbedfdb12b0d"
+    },
+    {
+      "path": "workflows/stages/web-image-review.md",
+      "upstream_path": "skills/ppt-master/workflows/stages/web-image-review.md",
+      "source_url": "https://raw.githubusercontent.com/hugohe3/ppt-master/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/workflows/stages/web-image-review.md",
+      "bytes": 3511,
+      "sha256": "7cc6721afecdb9bbe64c3cdb4185221c8c1f296a0caf488e3f27fa95a6ece1e0"
+    }
+  ]
+}

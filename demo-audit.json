@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.1.0",
+  "scope": "static_only",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 347,
+      "sha256": "10ff40db0876e421b89fd6b7a95b52b2dea29a4d4b90962837d15bffb1979006",
+      "lines": 12,
+      "characters": 347
+    },
+    {
+      "path": "references/charts.md",
+      "bytes": 64,
+      "sha256": "413159aca5dff2c51b26961e0870cd2453831d8a52f43cca38795a43ac0b0eb2",
+      "lines": 2,
+      "characters": 64
+    },
+    {
+      "path": "references/core.md",
+      "bytes": 63,
+      "sha256": "1fd2e32389fc816583669b070db10af98bd31697bb408c61d9730365136fab3f",
+      "lines": 2,
+      "characters": 63
+    },
+    {
+      "path": "references/narration.md",
+      "bytes": 70,
+      "sha256": "fa34c0a7264d9ae521a0086c9cead5f350a453b44d14df34199545803823632a",
+      "lines": 2,
+      "characters": 70
+    }
+  ],
+  "summary": {
+    "files": 4,
+    "bytes_on_disk": 544,
+    "entry_characters": 347,
+    "markdown_characters": 544
+  },
+  "references": [
+    {
+      "from": "SKILL.md",
+      "line": 7,
+      "reference": "references/core.md",
+      "to": "references/core.md",
+      "status": "exists",
+      "conditional_hint": false
+    },
+    {
+      "from": "SKILL.md",
+      "line": 8,
+      "reference": "references/narration.md",
+      "to": "references/narration.md",
+      "status": "exists",
+      "conditional_hint": false
+    },
+    {
+      "from": "SKILL.md",
+      "line": 9,
+      "reference": "references/charts.md",
+      "to": "references/charts.md",
+      "status": "exists",
+      "conditional_hint": false
+    }
+  ],
+  "capability_candidates": [
+    {
+      "capability": "narration",
+      "file": "SKILL.md",
+      "lines": [
+        8,
+        12
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "charts",
+      "file": "SKILL.md",
+      "lines": [
+        9
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "charts",
+      "file": "references/charts.md",
+      "lines": [
+        1,
+        2
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "export",
+      "file": "references/core.md",
+      "lines": [
+        2
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "narration",
+      "file": "references/narration.md",
+      "lines": [
+        1,
+        2
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    }
+  ],
+  "issues": [
+    {
+      "type": "batch_read_candidate",
+      "file": "SKILL.md",
+      "line": 6,
+      "evidence": "Always read all following files before starting.",
+      "conditional_hint": false
+    }
+  ],
+  "identical_files": [],
+  "limitations": [
+    "未运行目标 Skill，不执行其脚本。",
+    "磁盘字节/字符不是实际上下文 token 或费用。",
+    "Markdown 静态引用只覆盖显式链接和部分反引号路径；代码/动态路径/隐式依赖需人工核查。",
+    "条件提示是行级启发式，不证明安全可省略。"
+  ]
+}

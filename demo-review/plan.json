@@ -1,0 +1,64 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "automatic_switching": false,
+  "original_sha256": "10ff40db0876e421b89fd6b7a95b52b2dea29a4d4b90962837d15bffb1979006",
+  "candidates": [
+    {
+      "capability": "narration",
+      "file": "SKILL.md",
+      "lines": [
+        8,
+        12
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "charts",
+      "file": "SKILL.md",
+      "lines": [
+        9
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "charts",
+      "file": "references/charts.md",
+      "lines": [
+        1,
+        2
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "export",
+      "file": "references/core.md",
+      "lines": [
+        2
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    },
+    {
+      "capability": "narration",
+      "file": "references/narration.md",
+      "lines": [
+        1,
+        2
+      ],
+      "decision": "REVIEW_REQUIRED",
+      "default": "preserve",
+      "reason": "关键词候选不是可关闭能力证明；检查依赖与输出契约。"
+    }
+  ],
+  "keep_invariants": [
+    "原有安全/权限/事实/格式/质量/交付约束全部保留"
+  ],
+  "next_step": "根据任务人工确认能力、依赖和入口后，才编写精简版本并做回归；此草稿不会自动重写入口。"
+}

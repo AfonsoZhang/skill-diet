@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skill-diet"
+version = "0.3.0"
+description = "Local Agent Skill management: inventory, usage evidence, and static audits"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+skill-diet = "skill_diet.manager:main"
+
+[tool.setuptools]
+packages = ["skill_diet"]
+package-dir = {skill_diet = "skill-diet"}
+
+[tool.setuptools.package-data]
+skill_diet = ["SKILL.md"]

@@ -1,0 +1,27 @@
+test_copy_is_exact_and_non_destructive (test_diet.Tests.test_copy_is_exact_and_non_destructive) ... ok
+test_identical_files (test_diet.Tests.test_identical_files) ... ok
+test_missing_entry (test_diet.Tests.test_missing_entry) ... ok
+test_no_overwrite (test_diet.Tests.test_no_overwrite) ... ok
+test_no_script_execution (test_diet.Tests.test_no_script_execution) ... ok
+test_outside_reference (test_diet.Tests.test_outside_reference) ... ok
+test_payload_not_read (test_diet.Tests.test_payload_not_read) ... ok
+test_references_and_risk (test_diet.Tests.test_references_and_risk) ... ok
+test_size_limit (test_diet.Tests.test_size_limit) ... ok
+test_symlink_denied (test_diet.Tests.test_symlink_denied) ... ok
+test_conflict_rollback (test_usage.UsageTests.test_conflict_rollback) ... ok
+test_events_count_idempotent (test_usage.UsageTests.test_events_count_idempotent) ... ok
+test_full_zero_events_stale_keep (test_usage.UsageTests.test_full_zero_events_stale_keep) ... ok
+test_multiple_sources_conservative (test_usage.UsageTests.test_multiple_sources_conservative) ... ok
+test_naive_time_rejected (test_usage.UsageTests.test_naive_time_rejected) ... ok
+test_old_event_count_and_future_asof (test_usage.UsageTests.test_old_event_count_and_future_asof) ... ok
+test_outside_window_rejected (test_usage.UsageTests.test_outside_window_rejected) ... ok
+test_partial_not_stale (test_usage.UsageTests.test_partial_not_stale) ... ok
+test_timezone_normalization (test_usage.UsageTests.test_timezone_normalization) ... ok
+test_unknown_not_stale (test_usage.UsageTests.test_unknown_not_stale) ... ok
+test_unknown_skill_rejected (test_usage.UsageTests.test_unknown_skill_rejected) ... ok
+test_windows_union_and_gap (test_usage.UsageTests.test_windows_union_and_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.026s
+
+OK
