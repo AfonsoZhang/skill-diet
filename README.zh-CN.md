@@ -6,7 +6,7 @@
 
 以减负为核心的 **Skill management**：扫描技能库，追踪使用，发现值得精简的地方。
 首版从技能库盘点与使用状态入手，再深入体检单个 Skill，支持扫描、登记、查看、使用统计与静态体检。
-当前为 **0.3.0 Alpha**，延续 v0.2 原型，不自动安装、禁用或卸载 Skill，也不自动改写内容。
+当前为 **0.4.0 Alpha**，延续 v0.2 原型，不自动安装、禁用或卸载 Skill，也不自动改写内容。
 
 ## 开始使用
 
@@ -19,7 +19,8 @@ python3 -m venv .venv
 # macOS/Linux: source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install .
-skill-diet scan examples
+skill-diet discover examples
+skill-diet inspect examples --format markdown
 skill-diet --db demo-usage.sqlite add demo examples/heavy-demo
 skill-diet --db demo-usage.sqlite list
 skill-diet audit examples/heavy-demo
@@ -36,6 +37,8 @@ skill-diet audit examples/heavy-demo
 
 |命令|用途|
 |---|---|
+|`discover ROOT [ROOT ...]`|递归发现嵌套技能和插件目录，识别软链接别名并防止循环|
+|`inspect ROOT [ROOT ...]`|输出带规则、文件行号、置信度和上下文的分类发现|
 |`scan PATH`|列出指定目录中的 Skill，不修改台账|
 |`add ID PATH`|登记 Skill 或更新其位置|
 |`list [--days N] [--as-of TIME]`|查看台账、使用状态和文件存在情况|
@@ -46,6 +49,15 @@ skill-diet audit examples/heavy-demo
 |`draft PATH --out NEW_PATH`|生成保留原文件的审查包|
 
 使用状态完全依赖导入的数据与观测范围声明；没有自动宿主日志采集器。
+
+`discover` 与 `inspect` 只处理明确指定的根目录。发现文件不等于宿主已加载；CLI 的宿主激活状态默认 `unknown`，插件缓存位置也不能证明闲置。库级 `HostObservation` 仅供已核实来源的宿主适配器调用；本版没有内置此类适配器，也不把任意 JSON 声明当成已验证事实。
+
+体检区分确定缺陷、宿主前置条件、加载优化候选和待复核项。静态引用未解析不等于坏链接，文件字节数不等于真实 token 开销。报告保留文件、行号、规则、置信度、上下文与扫描限制；二进制素材不会阻止入口审查，但超限文本与越界链接会明确记录为未读取。
+
+`--check-host` 只检查当前 PATH 上的命令。`--host-context FILE` 可传入人工观测的依赖状态，例如 `{"commands":{"soffice":false}}`，不能据此认定技能激活或使用频率。
+
+新增[合成对照实验](benchmarks/README.md)：Plain Agent 与 Agent + Skill Diet 使用同一 GPT-6.1 Sol、任务、输入和预算，记录漏报、误报、读取/工具调用负担和耗时。没有可观察的 token 数据时保持空值。[实际结果](benchmarks/results/README.md)仅描述已执行的实验，不代表真实技能库上的收益。
+
 下面保留原型的详细格式、限制和案例说明，旧脚本命令仍兼容。
 
 ---

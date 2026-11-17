@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "condition": "plain",
+  "model": "gpt-6.1-sol",
+  "budget": {
+    "operations": 12,
+    "characters": 40000,
+    "seconds": 240
+  },
+  "input_hash": "62201b017608b700fa7510dd96030c20e79fb716255d08e6396530e9f0a672c5",
+  "seed": 17,
+  "start": 333274.459496962,
+  "operations": 11,
+  "returned_characters": 2086,
+  "read_calls": 9,
+  "read_characters": 1665,
+  "tool_calls": 0,
+  "events": [
+    {
+      "operation": "list",
+      "path": null,
+      "characters": 401,
+      "elapsed_seconds": 0.0010408009984530509
+    },
+    {
+      "operation": "read",
+      "path": "project/team/elm/SKILL.md",
+      "characters": 229,
+      "elapsed_seconds": 5.352670401975047
+    },
+    {
+      "operation": "read",
+      "path": "project/team/delta/SKILL.md",
+      "characters": 279,
+      "elapsed_seconds": 5.3601230579661205
+    },
+    {
+      "operation": "read",
+      "path": "plugins/cache/tools/2.0/amber/SKILL.md",
+      "characters": 157,
+      "elapsed_seconds": 5.363330174004659
+    },
+    {
+      "operation": "read",
+      "path": "project/team/harbor/SKILL.md",
+      "characters": 204,
+      "elapsed_seconds": 5.370917183987331
+    },
+    {
+      "operation": "read",
+      "path": "project/team/harbor/scripts/diagnose.py",
+      "characters": 119,
+      "elapsed_seconds": 9.896932856994681
+    },
+    {
+      "operation": "read",
+      "path": "user/birch/SKILL.md",
+      "characters": 207,
+      "elapsed_seconds": 9.905328782973811
+    },
+    {
+      "operation": "read",
+      "path": "user/fern/SKILL.md",
+      "characters": 208,
+      "elapsed_seconds": 9.906539604999125
+    },
+    {
+      "operation": "read",
+      "path": "user/garnet/SKILL.md",
+      "characters": 201,
+      "elapsed_seconds": 9.913314518984407
+    },
+    {
+      "operation": "read",
+      "path": "user/fern/cache/index.json",
+      "characters": 61,
+      "elapsed_seconds": 14.497808576968964
+    },
+    {
+      "operation": "submit",
+      "path": null,
+      "characters": 20,
+      "elapsed_seconds": 27.16340830596164
+    }
+  ],
+  "tokens": null,
+  "cost": null,
+  "elapsed_seconds": 27.16340830596164,
+  "findings": [
+    {
+      "rule": "backend-mismatch",
+      "path": "plugins/cache/tools/1.0/cedar/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Requires legacy image export although the same instruction says legacy was removed and only native is supported."
+    },
+    {
+      "rule": "broken-command-path",
+      "path": "plugins/cache/tools/2.0/amber/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Runs scripts/normalize.py, which is absent from the installed skill; the listed script is scripts/clean.py."
+    },
+    {
+      "rule": "source-root-confusion",
+      "path": "project/team/elm/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Explicitly resolves references/terms.md against the caller working directory rather than the skill directory containing the resource."
+    },
+    {
+      "rule": "credential-output",
+      "path": "project/team/harbor/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Requires returning the diagnostic helper output; scripts/diagnose.py prints the session_cookie value directly."
+    },
+    {
+      "rule": "stale-cache",
+      "path": "user/fern/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Declares the cache authoritative after source changes, and cache/index.json records source_revision 1 against current_revision 2."
+    },
+    {
+      "rule": "missing-resource",
+      "path": "user/garnet/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Requires references/format.md before writing, but no such resource is present in the listed library."
+    },
+    {
+      "rule": "route-conflict",
+      "path": "user/birch/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Claims exclusive handling of invoice summaries and forbids any other invoice summary skill, overlapping garnet's invoice-summary workflow."
+    }
+  ]
+}

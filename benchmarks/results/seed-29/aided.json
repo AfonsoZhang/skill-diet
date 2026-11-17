@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "condition": "aided",
+  "model": "gpt-6.1-sol",
+  "budget": {
+    "operations": 12,
+    "characters": 40000,
+    "seconds": 240
+  },
+  "input_hash": "15cdeeac7473881416c5e81d11ba3ab7ccd2e61d926fa56be83e6227d0c0fa07",
+  "seed": 29,
+  "start": 333403.661095271,
+  "operations": 12,
+  "returned_characters": 6383,
+  "read_calls": 9,
+  "read_characters": 1804,
+  "tool_calls": 1,
+  "events": [
+    {
+      "operation": "list",
+      "path": null,
+      "characters": 403,
+      "elapsed_seconds": 0.0009310470195487142
+    },
+    {
+      "operation": "inspect",
+      "path": null,
+      "characters": 4156,
+      "elapsed_seconds": 3.9538873879937455
+    },
+    {
+      "operation": "read",
+      "path": "plugins/cache/tools/1.0/elm/SKILL.md",
+      "characters": 198,
+      "elapsed_seconds": 9.006445219973102
+    },
+    {
+      "operation": "read",
+      "path": "plugins/cache/tools/2.0/amber/SKILL.md",
+      "characters": 157,
+      "elapsed_seconds": 9.118714250973426
+    },
+    {
+      "operation": "read",
+      "path": "project/team/cedar/SKILL.md",
+      "characters": 203,
+      "elapsed_seconds": 9.230507095984649
+    },
+    {
+      "operation": "read",
+      "path": "project/team/delta/SKILL.md",
+      "characters": 279,
+      "elapsed_seconds": 9.343934732023627
+    },
+    {
+      "operation": "read",
+      "path": "project/team/garnet/SKILL.md",
+      "characters": 232,
+      "elapsed_seconds": 9.459599100984633
+    },
+    {
+      "operation": "read",
+      "path": "user/birch/SKILL.md",
+      "characters": 200,
+      "elapsed_seconds": 9.570791946025565
+    },
+    {
+      "operation": "read",
+      "path": "user/fern/SKILL.md",
+      "characters": 208,
+      "elapsed_seconds": 9.676657950971276
+    },
+    {
+      "operation": "read",
+      "path": "user/harbor/SKILL.md",
+      "characters": 208,
+      "elapsed_seconds": 9.784467404009774
+    },
+    {
+      "operation": "read",
+      "path": "project/team/cedar/scripts/diagnose.py",
+      "characters": 119,
+      "elapsed_seconds": 17.21258539496921
+    },
+    {
+      "operation": "submit",
+      "path": null,
+      "characters": 20,
+      "elapsed_seconds": 29.729509017022792
+    }
+  ],
+  "tokens": null,
+  "cost": null,
+  "elapsed_seconds": 29.729509017022792,
+  "findings": [
+    {
+      "rule": "backend-mismatch",
+      "path": "plugins/cache/tools/1.0/elm/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Requires legacy despite explicitly stating only native is supported and legacy was removed."
+    },
+    {
+      "rule": "broken-command-path",
+      "path": "plugins/cache/tools/2.0/amber/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Requires scripts/normalize.py, absent from the installed skill; the listed script is scripts/clean.py."
+    },
+    {
+      "rule": "credential-output",
+      "path": "project/team/cedar/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Requires running the diagnostic helper and returning its output; that helper prints session_cookie (scripts/diagnose.py lines 2\u20133), disclosing the credential."
+    },
+    {
+      "rule": "source-root-confusion",
+      "path": "project/team/garnet/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Explicitly resolves references/terms.md from the caller current working directory regardless of the skill location."
+    },
+    {
+      "rule": "missing-resource",
+      "path": "user/birch/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Required references/format.md is absent; inspect confirms the missing local resource."
+    },
+    {
+      "rule": "stale-cache",
+      "path": "user/fern/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Declares cache/index.json authoritative even after the source revision changes, requiring reliance on an obsolete cache."
+    },
+    {
+      "rule": "route-conflict",
+      "path": "user/harbor/SKILL.md",
+      "line": 7,
+      "category": "defect",
+      "explanation": "Exclusively claims invoice summaries and prohibits other invoice summary skills, conflicting with birch's required invoice-summary workflow."
+    }
+  ]
+}

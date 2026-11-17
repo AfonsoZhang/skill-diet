@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "input_hash": "62201b017608b700fa7510dd96030c20e79fb716255d08e6396530e9f0a672c5",
+  "seed": 17,
+  "model": "gpt-6.1-sol",
+  "budget": {
+    "operations": 12,
+    "characters": 40000,
+    "seconds": 240
+  },
+  "interpretation": "One descriptive pair; no significance claim. Effort proxies are not human minutes or model tokens.",
+  "scores": {
+    "plain": {
+      "true_positives": 6,
+      "false_positives": 1,
+      "misses": 1,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "false_positive_rate": null,
+      "benign_candidate_denominator": null,
+      "elapsed_seconds": 27.16340830596164,
+      "operations": 11,
+      "returned_characters": 2086,
+      "read_calls": 9,
+      "read_characters": 1665,
+      "tool_calls": 0,
+      "tokens": null,
+      "cost": null
+    },
+    "aided": {
+      "true_positives": 6,
+      "false_positives": 1,
+      "misses": 1,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "false_positive_rate": null,
+      "benign_candidate_denominator": null,
+      "elapsed_seconds": 29.43451858597109,
+      "operations": 12,
+      "returned_characters": 6383,
+      "read_calls": 9,
+      "read_characters": 1804,
+      "tool_calls": 1,
+      "tokens": null,
+      "cost": null
+    }
+  }
+}

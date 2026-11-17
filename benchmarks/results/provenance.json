@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "model_requested": "gpt-6.1-sol",
+  "model_evidence": "Four fresh collaboration.spawn_agent calls explicitly set this model and fork_turns=none; not independently authenticated by the harness.",
+  "same_reasoning_setting": "Inherited identical runtime setting; no per-condition override.",
+  "execution": "Pairs ran concurrently; first launch plain for seed17, aided for seed29.",
+  "task_budget": {
+    "operations": 12,
+    "characters": 40000,
+    "seconds": 240
+  },
+  "platform": "Linux",
+  "python": "3.10.12",
+  "source_sha256": {
+    "skill-diet/discovery.py": "26285c0527d5932e93c676b9c638521188fb3ec4638b133a57820488918ddc57",
+    "skill-diet/evidence.py": "afde919054f93b7e64618727c5fdca16e64dc1eb770671838db94ac7a8ad7250",
+    "skill-diet/manager.py": "11567182ea44ccb84282980b73fc1473b16335f6fc4a6ff0d28e6efc075944a3",
+    "benchmarks/review.py": "86ea6b733b82946d3e152890d070fc5af7042bce145ebe84b9cfc82497a8030a"
+  },
+  "tokens": null,
+  "monetary_cost": null,
+  "adjudication": "Independent gpt-6.1-sol reviewer received randomly relabeled source/truth/submission packets, without condition labels or metrics. Applied after frozen strict scores; did not change ground truth or deterministic scoring."
+}

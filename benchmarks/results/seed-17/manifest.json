@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "seed": 17,
+  "model": "gpt-6.1-sol",
+  "budget": {
+    "operations": 12,
+    "characters": 40000,
+    "seconds": 240
+  },
+  "input_hash": "62201b017608b700fa7510dd96030c20e79fb716255d08e6396530e9f0a672c5",
+  "rules": [
+    "missing-resource",
+    "credential-output",
+    "backend-mismatch",
+    "stale-cache",
+    "source-root-confusion",
+    "broken-command-path",
+    "route-conflict"
+  ]
+}

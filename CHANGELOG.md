@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.0 — Alpha
+
+- Add recursive discovery across explicit roots, nested skills, plugin caches and
+  symlink aliases, with cycle protection and reported resource limits.
+- Keep filesystem discovery separate from trusted host observations and usage.
+- Add categorized, source-located evidence findings and explicit inspection coverage.
+- Add a seeded synthetic benchmark with fixed review budgets, hidden ground truth,
+  paired scoring, and unobserved token/cost fields.
+- Preserve the original shallow scan, audit, draft and inventory commands.
+
 ## 0.3.0 — Alpha
 
 - Reframe the prototype as local Agent Skill management.

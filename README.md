@@ -8,7 +8,7 @@ skill overhead: start with the library, then inspect individual skills.
 
 [中文说明](README.zh-CN.md) · MIT · Python 3.10+ · No runtime dependencies
 
-Version 0.3.0 is an alpha built from the Skill Diet v0.2 prototype.
+Version 0.4.0 is an alpha built from the Skill Diet v0.2 prototype.
 It combines a local inventory, explicitly imported usage events, and static skill audits
 in one CLI. Skills remain unchanged.
 
@@ -23,7 +23,8 @@ python -m venv .venv
 # macOS/Linux: source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install .
-skill-diet scan examples
+skill-diet discover examples
+skill-diet inspect examples --format markdown
 skill-diet --db demo-usage.sqlite add demo examples/heavy-demo
 skill-diet --db demo-usage.sqlite list
 skill-diet audit examples/heavy-demo
@@ -52,7 +53,9 @@ Listing a nonexistent inventory returns an empty list without creating it.
 
 | Command | Behavior |
 | --- | --- |
-| `scan PATH` | List a skill itself or skills in the immediate child directories; no recursive host discovery |
+| `discover ROOT [ROOT ...]` | Recursively find nested skills, plugin directories and symlink aliases within explicit roots |
+| `inspect ROOT [ROOT ...]` | Produce categorized findings with source lines, confidence, context and coverage |
+| `scan PATH` | Original shallow listing, retained for compatibility |
 | `add ID PATH` | Register a directory containing `SKILL.md`; reusing an ID updates its path and preserves usage/keep history |
 | `list --days 30` | Show inventory, usage evidence, coverage, keep markers, and `entry_exists` |
 | `import EVENTS.json` | Import an explicit usage export atomically; duplicate source/event IDs are idempotent |
@@ -66,6 +69,59 @@ The unified CLI writes UTF-8, including when output is redirected to a file or p
 Use distinct IDs for distinct skills. Scan lists directory symlinks with their resolved
 locations; the static auditor resolves the input root and rejects symlinks inside it.
 A missing registered directory remains in the inventory so you can see and update its location.
+
+## Discovery and evidence
+
+```sh
+skill-diet discover /path/to/skills /path/to/plugins/cache
+skill-diet inspect /path/to/skills --format markdown
+skill-diet inspect /path/to/skills --check-host
+```
+
+Discovery follows directory symlinks with cycle protection, combines aliases of the
+same physical entry, and reports exclusions, unreadable paths and budget limits.
+`.git`, `node_modules`, `.venv`, and `__pycache__` directories are excluded. Use
+`--cache-root PATH` to label an additional cache location; a cache label says where
+the file lives, not whether the host loads it. No home-directory scan is implicit.
+
+**Discovered is not active.** CLI discovery reports host activity as `unknown`.
+No verified host adapter is bundled. Python integrations may pass a `HostObservation`
+from an independently verified host adapter; this is an explicit caller trust
+boundary, not authentication. Omitted paths stay unknown rather than inactive.
+There is no CLI option that promotes an arbitrary manifest into confirmed activity.
+
+`inspect` separates `defect`, `host_prerequisite`, `load_candidate`, and
+`review_candidate`. Each finding includes the source path and line, rule, severity,
+confidence, evidence, context, and a recommended next step. Usage is separately
+reported as unknown. A missing explicitly linked local resource can be a defect;
+an unresolved example, output path, or external-repository filename is not automatically
+a bug. Credential-like Python print calls are review candidates, not proof that a
+secret was exposed. Large entries and read-all instructions are loading candidates,
+not measured token overhead.
+
+Inspection reads bounded linked Markdown/Python/JavaScript resources inside each
+physical skill root. It does not run scripts or follow escaping support links.
+Binary assets do not block an entry review. Discovery and text-size limits appear
+in coverage; partial scans do not establish a clean bill of health. This is a small,
+conservative static rule set, not an automated semantic reviewer or repair engine.
+
+`--check-host` checks common executable names on the current process's PATH. An
+optional `--host-context FILE` can supply operator-reported command availability,
+for example `{"commands":{"soffice":false}}`. This is prerequisite evidence,
+not authenticated host activation or usage evidence. Tool/model lists alone do not
+prove that a documented operation is executable.
+
+## Reproducible Agent comparison
+
+The [benchmark protocol](benchmarks/README.md) generates a seeded, synthetic library
+with separate ground truth and a bounded review interface. Compare a plain Agent
+with Agent + Skill Diet using the same GPT-6.1 Sol model, task, fixture and limits.
+It records missed defects, false positives, elapsed review time and tool/read effort.
+Tokens and monetary cost remain null unless independently observed. No real host
+logs or private skills enter the fixture.
+
+See [measured results](benchmarks/results/README.md) for the runs actually completed
+and their limits; the harness itself does not constitute evidence of improvement.
 
 ## Try usage tracking with synthetic data
 

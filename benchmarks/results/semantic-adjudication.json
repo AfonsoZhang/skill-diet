@@ -1,0 +1,286 @@
+[
+  {
+    "case": "case-1",
+    "findings": [
+      {
+        "index": 0,
+        "rule": "backend-mismatch",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "backend-mismatch",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/1.0/elm/SKILL.md:7 simultaneously requires legacy and states legacy was removed and native is supported; the contradiction is explicit."
+      },
+      {
+        "index": 1,
+        "rule": "broken-command-path",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "broken-command-path",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/2.0/amber/SKILL.md:7 invokes scripts/normalize.py, absent from the supplied file inventory; the only provided script is plugins/cache/tools/2.0/amber/scripts/clean.py:1."
+      },
+      {
+        "index": 2,
+        "rule": "credential-output",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "credential-output",
+        "anchor_exact": true,
+        "reason": "project/team/cedar/scripts/diagnose.py:3 prints session_cookie, assigned a synthetic placeholder at project/team/cedar/scripts/diagnose.py:2; project/team/cedar/SKILL.md:7 requires returning helper output. This is the supplied synthetic credential-output defect, not an observed real credential leak."
+      },
+      {
+        "index": 3,
+        "rule": "source-root-confusion",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "source-root-confusion",
+        "anchor_exact": true,
+        "reason": "project/team/garnet/SKILL.md:7 explicitly resolves references/terms.md from the caller working directory regardless of skill location, while the installed resource is project/team/garnet/references/terms.md:1."
+      },
+      {
+        "index": 4,
+        "rule": "missing-resource",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "missing-resource",
+        "anchor_exact": true,
+        "reason": "user/birch/SKILL.md:7 requires references/format.md, which is absent from the supplied file inventory. The claim is valid within this closed fixture."
+      },
+      {
+        "index": 5,
+        "rule": "stale-cache",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "stale-cache",
+        "anchor_exact": true,
+        "reason": "user/fern/SKILL.md:7 declares the cache authoritative despite source changes; user/fern/cache/index.json:1 records source_revision 1 and current_revision 2, confirming stale data."
+      },
+      {
+        "index": 6,
+        "rule": "route-conflict",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "route-conflict",
+        "anchor_exact": true,
+        "reason": "user/harbor/SKILL.md:7 mandates exclusive invoice-summary handling and prohibits other skills; user/birch/SKILL.md:7 separately mandates the invoice-summary format-guide workflow, establishing the supplied routing conflict."
+      }
+    ],
+    "semantic_true_positives": 7,
+    "semantic_false_positives": 0,
+    "semantic_misses": [],
+    "limitations": [
+      "Interpretive review of supplied source text and ground truth only; no execution or external verification. Finding indices are zero-based.",
+      "Synthetic cookie output is assessed as the fixture defect, not evidence of an actual secret disclosure. Missing resources are assessed against the supplied closed file inventory.",
+      "Semantic adjudication does not replace or modify deterministic exact-location metrics; callsite anchors remain non-exact."
+    ],
+    "seed": 29,
+    "condition": "plain"
+  },
+  {
+    "case": "case-2",
+    "findings": [
+      {
+        "index": 0,
+        "rule": "backend-mismatch",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "backend-mismatch",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/1.0/cedar/SKILL.md:7 simultaneously requires legacy and states legacy was removed and native is supported; the contradiction is explicit."
+      },
+      {
+        "index": 1,
+        "rule": "broken-command-path",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "broken-command-path",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/2.0/amber/SKILL.md:7 invokes scripts/normalize.py, absent from the supplied file inventory; the only provided script is plugins/cache/tools/2.0/amber/scripts/clean.py:1."
+      },
+      {
+        "index": 2,
+        "rule": "source-root-confusion",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "source-root-confusion",
+        "anchor_exact": true,
+        "reason": "project/team/elm/SKILL.md:7 explicitly resolves references/terms.md from the caller working directory regardless of skill location, while the installed resource is project/team/elm/references/terms.md:1."
+      },
+      {
+        "index": 3,
+        "rule": "missing-resource",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "missing-resource",
+        "anchor_exact": true,
+        "reason": "user/garnet/SKILL.md:7 requires references/format.md, which is absent from the supplied file inventory. The claim is valid within this closed fixture."
+      },
+      {
+        "index": 4,
+        "rule": "credential-output",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "credential-output",
+        "anchor_exact": false,
+        "reason": "project/team/harbor/scripts/diagnose.py:3 prints session_cookie, assigned a synthetic placeholder at project/team/harbor/scripts/diagnose.py:2; project/team/harbor/SKILL.md:7 requires returning helper output. This is the supplied synthetic credential-output defect, not an observed real credential leak. The submitted anchor is the causally relevant callsite, so semantic validity holds while exact source anchoring fails."
+      },
+      {
+        "index": 5,
+        "rule": "stale-cache",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "stale-cache",
+        "anchor_exact": true,
+        "reason": "user/fern/SKILL.md:7 declares the cache authoritative despite source changes; user/fern/cache/index.json:1 records source_revision 1 and current_revision 2, confirming stale data."
+      },
+      {
+        "index": 6,
+        "rule": "route-conflict",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "route-conflict",
+        "anchor_exact": true,
+        "reason": "user/birch/SKILL.md:7 mandates exclusive invoice-summary handling and prohibits other skills; user/garnet/SKILL.md:7 separately mandates the invoice-summary format-guide workflow, establishing the supplied routing conflict."
+      }
+    ],
+    "semantic_true_positives": 7,
+    "semantic_false_positives": 0,
+    "semantic_misses": [],
+    "limitations": [
+      "Interpretive review of supplied source text and ground truth only; no execution or external verification. Finding indices are zero-based.",
+      "Synthetic cookie output is assessed as the fixture defect, not evidence of an actual secret disclosure. Missing resources are assessed against the supplied closed file inventory.",
+      "Semantic adjudication does not replace or modify deterministic exact-location metrics; callsite anchors remain non-exact."
+    ],
+    "seed": 17,
+    "condition": "aided"
+  },
+  {
+    "case": "case-3",
+    "findings": [
+      {
+        "index": 0,
+        "rule": "backend-mismatch",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "backend-mismatch",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/1.0/elm/SKILL.md:7 simultaneously requires legacy and states legacy was removed and native is supported; the contradiction is explicit."
+      },
+      {
+        "index": 1,
+        "rule": "broken-command-path",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "broken-command-path",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/2.0/amber/SKILL.md:7 invokes scripts/normalize.py, absent from the supplied file inventory; the only provided script is plugins/cache/tools/2.0/amber/scripts/clean.py:1."
+      },
+      {
+        "index": 2,
+        "rule": "credential-output",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "credential-output",
+        "anchor_exact": false,
+        "reason": "project/team/cedar/scripts/diagnose.py:3 prints session_cookie, assigned a synthetic placeholder at project/team/cedar/scripts/diagnose.py:2; project/team/cedar/SKILL.md:7 requires returning helper output. This is the supplied synthetic credential-output defect, not an observed real credential leak. The submitted anchor is the causally relevant callsite, so semantic validity holds while exact source anchoring fails."
+      },
+      {
+        "index": 3,
+        "rule": "source-root-confusion",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "source-root-confusion",
+        "anchor_exact": true,
+        "reason": "project/team/garnet/SKILL.md:7 explicitly resolves references/terms.md from the caller working directory regardless of skill location, while the installed resource is project/team/garnet/references/terms.md:1."
+      },
+      {
+        "index": 4,
+        "rule": "missing-resource",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "missing-resource",
+        "anchor_exact": true,
+        "reason": "user/birch/SKILL.md:7 requires references/format.md, which is absent from the supplied file inventory. The claim is valid within this closed fixture."
+      },
+      {
+        "index": 5,
+        "rule": "stale-cache",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "stale-cache",
+        "anchor_exact": true,
+        "reason": "user/fern/SKILL.md:7 declares the cache authoritative despite source changes; user/fern/cache/index.json:1 records source_revision 1 and current_revision 2, confirming stale data."
+      },
+      {
+        "index": 6,
+        "rule": "route-conflict",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "route-conflict",
+        "anchor_exact": true,
+        "reason": "user/harbor/SKILL.md:7 mandates exclusive invoice-summary handling and prohibits other skills; user/birch/SKILL.md:7 separately mandates the invoice-summary format-guide workflow, establishing the supplied routing conflict."
+      }
+    ],
+    "semantic_true_positives": 7,
+    "semantic_false_positives": 0,
+    "semantic_misses": [],
+    "limitations": [
+      "Interpretive review of supplied source text and ground truth only; no execution or external verification. Finding indices are zero-based.",
+      "Synthetic cookie output is assessed as the fixture defect, not evidence of an actual secret disclosure. Missing resources are assessed against the supplied closed file inventory.",
+      "Semantic adjudication does not replace or modify deterministic exact-location metrics; callsite anchors remain non-exact."
+    ],
+    "seed": 29,
+    "condition": "aided"
+  },
+  {
+    "case": "case-4",
+    "findings": [
+      {
+        "index": 0,
+        "rule": "backend-mismatch",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "backend-mismatch",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/1.0/cedar/SKILL.md:7 simultaneously requires legacy and states legacy was removed and native is supported; the contradiction is explicit."
+      },
+      {
+        "index": 1,
+        "rule": "broken-command-path",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "broken-command-path",
+        "anchor_exact": true,
+        "reason": "plugins/cache/tools/2.0/amber/SKILL.md:7 invokes scripts/normalize.py, absent from the supplied file inventory; the only provided script is plugins/cache/tools/2.0/amber/scripts/clean.py:1."
+      },
+      {
+        "index": 2,
+        "rule": "source-root-confusion",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "source-root-confusion",
+        "anchor_exact": true,
+        "reason": "project/team/elm/SKILL.md:7 explicitly resolves references/terms.md from the caller working directory regardless of skill location, while the installed resource is project/team/elm/references/terms.md:1."
+      },
+      {
+        "index": 3,
+        "rule": "credential-output",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "credential-output",
+        "anchor_exact": false,
+        "reason": "project/team/harbor/scripts/diagnose.py:3 prints session_cookie, assigned a synthetic placeholder at project/team/harbor/scripts/diagnose.py:2; project/team/harbor/SKILL.md:7 requires returning helper output. This is the supplied synthetic credential-output defect, not an observed real credential leak. The submitted anchor is the causally relevant callsite, so semantic validity holds while exact source anchoring fails."
+      },
+      {
+        "index": 4,
+        "rule": "stale-cache",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "stale-cache",
+        "anchor_exact": true,
+        "reason": "user/fern/SKILL.md:7 declares the cache authoritative despite source changes; user/fern/cache/index.json:1 records source_revision 1 and current_revision 2, confirming stale data."
+      },
+      {
+        "index": 5,
+        "rule": "missing-resource",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "missing-resource",
+        "anchor_exact": true,
+        "reason": "user/garnet/SKILL.md:7 requires references/format.md, which is absent from the supplied file inventory. The claim is valid within this closed fixture."
+      },
+      {
+        "index": 6,
+        "rule": "route-conflict",
+        "semantic_valid": true,
+        "ground_truth_match_rule": "route-conflict",
+        "anchor_exact": true,
+        "reason": "user/birch/SKILL.md:7 mandates exclusive invoice-summary handling and prohibits other skills; user/garnet/SKILL.md:7 separately mandates the invoice-summary format-guide workflow, establishing the supplied routing conflict."
+      }
+    ],
+    "semantic_true_positives": 7,
+    "semantic_false_positives": 0,
+    "semantic_misses": [],
+    "limitations": [
+      "Interpretive review of supplied source text and ground truth only; no execution or external verification. Finding indices are zero-based.",
+      "Synthetic cookie output is assessed as the fixture defect, not evidence of an actual secret disclosure. Missing resources are assessed against the supplied closed file inventory.",
+      "Semantic adjudication does not replace or modify deterministic exact-location metrics; callsite anchors remain non-exact."
+    ],
+    "seed": 17,
+    "condition": "plain"
+  }
+]
